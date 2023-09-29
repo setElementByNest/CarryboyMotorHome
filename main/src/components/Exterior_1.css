@@ -1,0 +1,133 @@
+.seen4 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: url('/img_index/exterior_1.jpg') no-repeat;
+    background-size: cover;
+    background-position: top center;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+
+.seen4_topic {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    align-items: start;
+    background-image: linear-gradient(to top, #000000ee, #00000000);
+    cursor: default;
+}
+
+.seen4_sub {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seen4_sub h3 {
+    margin: 5px 10px;
+    padding: 15px 2vw 15px 2vw;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#XB {
+    border-top: #aaaaaaaa solid 7px;
+}
+
+#XF {
+    border-top: #ffffffaa solid 7px;
+}
+
+.seen4 h2 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.exterior_1 {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.img_exterior {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    opacity: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img_exterior_2 {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    opacity: 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media (max-width:1100px) {
+    .seen4 {
+        position: relative;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 80% 20%;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 30vh;
+        background-size: cover;
+        background-position: top center;
+        object-fit: cover;
+        transition: all 0.3s;
+      }
+    
+      .seen4_topic {
+        grid-template-rows: 100%
+      }
+    
+      .seen4_topic h2 {
+        align-items: center;
+        font-size: 4vw;
+      }
+    
+      .seen4_sub {
+        display: none;
+      }
+    
+      .img_exterior img {
+        width: 15px;
+        height: 15px;
+      }
+    
+      .img_exterior_2 img {
+        width: 15px;
+        height: 15px;
+      }
+    
+      .prev,
+      .next {
+        font-size: 5vw;
+        width: 75%;
+        height: 30%;
+      }
+}

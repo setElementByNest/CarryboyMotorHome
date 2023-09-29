@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image" href="/img_index/logo-mini.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MotorHome</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 500);
+      //document.getElementById("loading").style.display = "none";
+    }
+
+    function showPage() {
+      document.getElementById("loading").style.opacity = 0;
+      document.getElementById("imgload").style.display = 'none';
+      document.getElementById("loading").style.display = 'none';
+    }
+  </script>
+</head>
+
+<body onload="myFunction()" style="margin: 0; padding: 0;">
+  <div style="display: flex; position: fixed; width: 100%; height: 100%; background-color: #ffffff;
+        justify-content: center; align-items: center; opacity: 1; transition: opacity 0.5s; z-index: 6;" id="loading">
+
+    <div class="loader"><img id="logo_load" src="/img_index/logo-mini.png" alt="" width="25px" height="25px"></div>
+    <style>
+      .loader {
+        border: 5px solid #d2d2d2;
+        border-radius: 50%;
+        border-top: 5px solid #4100f5;
+        width: 50px;
+        height: 50px;
+        -webkit-animation: spin 2s linear infinite;
+        /* Safari */
+        animation: spin 2s linear infinite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .loader #logo_load {
+        -webkit-animation: spini 2s linear infinite;
+        /* Safari */
+        animation: spini 2s linear infinite;
+      }
+
+      /* Safari */
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      @-webkit-keyframes spini {
+        0% {
+          -webkit-transform: rotate(360deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(0deg);
+        }
+      }
+
+      @keyframes spini {
+        0% {
+          transform: rotate(360deg);
+        }
+
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+    </style>
+  </div>
+  <div id="imgload" style="position: fixed; width: 100vw; height: 100vh; background: #4100f5; display: grid; z-index: 5;
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;grid-template-rows: 20% 20% 20% 20% 20%; opacity: 1;">
+    <img src="/img_index/show_01.jpg" alt="" width="100%">
+    <img src="/img_index/show_07.jpg" alt="" width="100%">
+  </div>
+  <div id="root"></div>
+  <script type="module" src="src/main.jsx"></script>
+</body>
+
+</html>

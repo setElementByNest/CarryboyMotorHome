@@ -1,0 +1,318 @@
+.optionmain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+::-moz-selection {
+  background: none;
+}
+
+::selection {
+  background: none;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::    PART 1   ::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+.optionsub_1 {
+    background: none;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.optionsub_1 h2 {
+    font-weight: 500;
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::    PART 2   ::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+.optionsub_2 {
+    background: none;
+    height: 40vh;
+    width: 100%;
+}
+
+.optionsub_2_imgset {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.optionsub_2_group {
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 0 30px 10px #00000030;
+    margin: 0 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.opimg1 {
+    background: url('/img_index/solar_01.jpg');
+    background-size: auto 100%;
+    background-position: center;
+    transition: all 0.5s;
+}
+
+.opimg2 {
+    background: url('/img_index/kit_01.jpg');
+    background-size: auto 100%;
+    background-position: center;
+    transition: all 0.5s;
+}
+
+.opimg3 {
+    background: url('/img_index/ipop_2_1_2.jpg');
+    background-size: auto 100%;
+    background-position: center;
+    transition: all 0.5s;
+}
+
+.opimg1:hover,
+.opimg2:hover,
+.opimg3:hover {
+    background-size: auto 120%;
+    transition: all 0.5s;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    & .gradientopimg {
+        height: 100%;
+    }
+}
+
+.gradientopimg {
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to Top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::    PART 3   ::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+.optionsub_3 {
+    background: none;
+    height: 100px;
+    margin: 5vh 0 1vh 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.optionsub_3_group {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1%;
+    text-align: center;
+}
+
+.optionsub_3_group_top {
+    width: 40px;
+    height: 50%;
+    background: none;
+}
+.u_naja {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+#op01 {
+    background: url('/img_index/icon_option_hotel.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#op02 {
+    background: url('/img_index/icon_option_shower.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-position: center;
+}
+
+#op03 {
+    background: url('/img_index/icon_option_toilet.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#op04 {
+    background: url('/img_index/icon_option_fridge.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#op05 {
+    background: url('/img_index/icon_option_caravan.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#op06 {
+    background: url('/img_index/icon_option_water.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#op07 {
+    background: url('/img_index/icon_option_battery.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.optionsub_3_group_bot {
+    width: 100%;
+    height: 50%;
+    background: none;
+    font-size: 13px;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*::::::::::::::    PART 4   ::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::*/
+.optionsub_4 {
+    background: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.option_button {
+    background: #cc0000;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 20px;
+    border-radius: 7px;
+    color: #ffffff;
+    transition: all 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.option_button:hover {
+    background: #aa0000;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+@media (max-width:1100px) {
+    .option {
+        height: fit-content;
+    }
+
+    .optionsub_1 {
+        height: fit-content;
+        margin-top: 10px;
+    }
+    .optionsub_1 h2 {
+        font-weight: 500;
+        font-size: 6vw;
+        margin: 3vh 0 1vh 0;
+    }
+
+    .optionsub_2 {
+        height: 100vh;
+    }
+
+    .optionsub_2_imgset {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .optionsub_2_group {
+        width: 95%;
+        height: 90%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        box-shadow: 0 0 30px 10px #00000030;
+        margin: 2.5%;
+        cursor: pointer;
+    }
+
+    .opimg1 {
+        background: url('/img_index/solar_01.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .opimg2 {
+        background: url('/img_index/kit_01.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .opimg3 {
+        background: url('/img_index/ipop_2_1_2.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .opimg1:hover,
+    .opimg2:hover,
+    .opimg3:hover {
+        background-size: cover;
+    }
+
+    .optionsub_3 {
+        flex-wrap: wrap;
+        height: 20vh;
+    }
+    .optionsub_3_group {
+        margin: 0 2%;
+    }
+    .optionsub_4 {
+        align-items: center;
+    }
+    .option_button {
+        padding: 10px 15px;
+    }
+}

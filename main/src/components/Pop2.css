@@ -1,0 +1,45 @@
+.pop2 {
+    z-index: 3;
+    height: 60%;
+    width: 70%;
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    background: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 1% 0 3% 0;
+    background: url('/img_index/Dimension.jpg') #ffffff no-repeat;
+    background-position: center center;
+    background-size: 90% auto;
+}
+
+.zone2 .fa {
+    height: fit-content;
+}
+
+@media (max-width: 1100px) {
+    .pop2 {
+        z-index: 3;
+        height: 30%;
+        width: 90%;
+        display: none;
+        position: fixed;
+        flex-direction: column;
+        background: #ffffff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 1% 0 3% 0;
+        background: url('/img_index/Dimension.jpg') #ffffff no-repeat;
+        background-position: center center;
+        background-size: 90% auto;
+    }
+}

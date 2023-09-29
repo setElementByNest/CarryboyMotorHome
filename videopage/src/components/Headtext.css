@@ -1,0 +1,36 @@
+.Headtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    line-height: 2.5vw;
+}
+
+.Headtext h2 {
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.Headtext h4 {
+    font-size: 2vw;
+    font-weight: 400;
+    font-family: 'Caveat';
+}
+
+@media (max-width: 1100px) {
+    .Headtext {
+        justify-content: flex-end;
+        height: 18vh;
+        line-height: 7.5vw;
+        margin-bottom: 4vh;
+    }
+    
+    .Headtext h2 {
+        font-size: 8vw;
+    }
+    
+    .Headtext h4 {
+        font-size: 6vw;
+    }
+}
