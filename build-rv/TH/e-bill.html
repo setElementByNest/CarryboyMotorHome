@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- html2pdf CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js">
+    </script>
+
+    <style>
+        body{
+            
+            position: fixed;
+            display: block;
+            width: 100%;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -25%);
+        }
+        .container {
+            position: fixed;
+        }
+        .carder {
+            box-sizing: content-box;
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            font-style: sans-serif;
+            padding:30px;
+            background-color: #f0f0f0;
+        }
+
+        .info1 {
+            z-index: 3;
+            position: fixed;
+            display: none;
+            width: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: fit-content;
+            border-radius: 10px;
+            background: #ffffff;
+        }
+
+        .head_order {
+            height: fit-content;
+            width: 90%;
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+            margin: 1% 5% 2% 5%;
+            border-bottom: #444444 solid 1px;
+            width: 80%;
+            margin: 0   10%;
+            font-size: 13px;
+        }
+
+        .orderlist {
+            height: fit-content;
+            width: 90%;
+            display: grid;
+            position: relative;
+            grid-template-columns: 30% 40% 30%;
+            align-items: center;
+            margin: 0 5%;
+            padding-bottom: 15px;
+            border-bottom: #000000 solid 1px;
+            width: 80%;
+            margin: 0   10%;
+        }
+
+        .orderlist h2 {
+            margin: 0 10px;
+            font-size: 12px;
+            line-height: 30px;
+        }
+
+        .L1 {
+            font-size: 15px;
+            text-align: left;
+        }
+
+        .L2 {
+            font-size: 15px;
+            text-align: left;
+        }
+
+        .L3 {
+            font-size: 15px;
+            text-align: right;
+        }
+
+        .form_info1 {
+            display: grid;
+            grid-template-rows: 25% 25% 25% 25%;
+            justify-content: space-between;
+            width: 80%;
+            margin: 0   10%;
+        }
+
+        .form_info1 label {
+            margin: 5px 0;
+        }
+
+        .form_info1 h4 {
+            width: 90%;
+            border-radius: 1px;
+            border: none;
+            margin: 5px;
+        }
+
+        .block_form {
+            display: grid;
+            font-size: 15px;
+            grid-template-columns: 50% 50%;
+        }
+
+        .body_info1 {
+            height: fit-content;
+            width: 90%;
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            margin: 1% 5% 2% 5%;
+            align-items: flex-start;
+            flex-direction: column;
+            font-size: 15px;
+        }
+
+        .info1 {
+            z-index: 3;
+            position: fixed;
+            display: none;
+            width: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: fit-content;
+            border-radius: 10px;
+            background: #ffffff;
+        }
+
+        #button {
+            position: relative;
+            background-color: #000000;
+            padding: 10px;
+            color: white;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        img {
+            margin: 0px;
+        }
+
+        header {
+            position: relative;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: hsla(0, 0%, 100%, .10);
+            border-bottom: #000000 solid 1px ;
+            margin: 1% 10% 1% 10%;
+        }
+
+        header .a a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: 600;
+            font-size: 25px;
+            margin: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+        <div class="card" id="makepdf">
+            <div class="body_info1">
+                <header>
+                    <div class="a">
+                        <h2 style="color: #ff0043;">CARRY BOY - MOTORHOME</h2>
+                        <h3>ELECTRONIC INVOICE</h3>
+                    </div>
+                </header>
+                <div class="body_info1">
+                    <div class="form_info1">
+
+                        <div class="block_form">
+                            <label for="name_info1">Name :</label>
+                            <h4 type="text" name="name" id="name_info1" ></h4>
+                        </div>
+                        <div class="block_form">
+                            <label for="lastname_info1">Last name : </label>
+                            <h4 type="text" name="lastname" id="lastname_info1" ></h4>
+                        </div>
+                        <div class="block_form">
+                            <label for="phone_info1">Phone : </label>
+                            <h4 type="text" name="phone" id="phone_info1" ></h4>
+                        </div>
+                        <div class="block_form">
+                            <label for="email_info1">E-mail : </label>
+                            <h4 type="email" name="email" id="email_info1" ></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="orderlist">
+                    <h2 class="L1" id="orderlist_1_1">VEHICLE BASE</h2>
+                    <h2 class="L2" id="orderlist_1_2"></h2>
+                    <h2 class="L3" id="orderlist_1_3"></h2>
+                    <h2 class="L1" id="orderlist_2_1">INTERIOR</h2>
+                    <h2 class="L2" id="orderlist_2_2"></h2>
+                    <h2 class="L3" id="orderlist_2_3"></h2>
+                    <h2 class="L1" id="orderlist_3_1">AIR CONDITIONER</h2>
+                    <h2 class="L2" id="orderlist_3_2"></h2>
+                    <h2 class="L3" id="orderlist_3_3"></h2>
+                    <h2 class="L1" id="orderlist_4_1">BATTERY</h2>
+                    <h2 class="L2" id="orderlist_4_2"></h2>
+                    <h2 class="L3" id="orderlist_4_3"></h2>
+                    <!--h2 class="L1" id="orderlist_5_1">SOLAR 535W ROOFTOP</h2>
+                    <h2 class="L2" id="orderlist_5_2"></h2>
+                    <h2 class="L3" id="orderlist_5_3"></h2-->
+                    <h2 class="L1" id="orderlist_6_1">SLIDE KITCHEN</h2>
+                    <h2 class="L2" id="orderlist_6_2"></h2>
+                    <h2 class="L3" id="orderlist_6_3"></h2>
+                    <h2 class="L1" id="orderlist_7_1">SUSPENSION</h2>
+                    <h2 class="L2" id="orderlist_7_2"></h2>
+                    <h2 class="L3" id="orderlist_7_3"></h2>
+                </div>
+                <div class="head_order">
+                    <h2>TOTAL PRICE</h2>
+                    <h2 id="sumbill">2,048,00 THB</h2>
+                </div>
+            </div>
+        </div>
+        
+        <button id="button">Generate PDF</button>
+
+    <script>
+        let button = document.getElementById("button");
+        let makepdf = document.getElementById("makepdf");
+
+        button.addEventListener("click", function () {
+            html2pdf().from(makepdf).save();
+        });
+
+        
+        document.getElementById("name_info1").textContent = sessionStorage.getItem("name")
+        document.getElementById("lastname_info1").textContent = sessionStorage.getItem("lastname")
+        document.getElementById("phone_info1").textContent = sessionStorage.getItem("phone")
+        document.getElementById("email_info1").textContent = sessionStorage.getItem("email")
+    
+    </script>
+    <script>
+        let orderlist_1_2 = document.getElementById("orderlist_1_2")
+        let orderlist_1_3 = document.getElementById("orderlist_1_3")
+        let orderlist_2_2 = document.getElementById("orderlist_2_2")
+        let orderlist_2_3 = document.getElementById("orderlist_2_3")
+        let orderlist_3_2 = document.getElementById("orderlist_3_2")
+        let orderlist_3_3 = document.getElementById("orderlist_3_3")
+        let orderlist_4_2 = document.getElementById("orderlist_4_2")
+        let orderlist_4_3 = document.getElementById("orderlist_4_3")
+        /*let orderlist_5_2 = document.getElementById("orderlist_5_2")
+        let orderlist_5_3 = document.getElementById("orderlist_5_3")*/
+        let orderlist_6_2 = document.getElementById("orderlist_6_2")
+        let orderlist_6_3 = document.getElementById("orderlist_6_3")
+        let orderlist_7_2 = document.getElementById("orderlist_7_2")
+        let orderlist_7_3 = document.getElementById("orderlist_7_3")
+        let sumbill = document.getElementById("sumbill")
+        orderlist_1_2.textContent = sessionStorage.getItem("nmecar")
+        orderlist_1_3.textContent = numtostr(sessionStorage.getItem("cstcar"))
+        orderlist_2_2.textContent = sessionStorage.getItem("nmecolor")
+        orderlist_2_3.textContent = numtostr(sessionStorage.getItem("cstcolor"))
+        orderlist_3_2.textContent = sessionStorage.getItem("nmeair")
+        orderlist_3_3.textContent = numtostr(sessionStorage.getItem("cstair"))
+        orderlist_4_2.textContent = sessionStorage.getItem("nmebat")
+        orderlist_4_3.textContent = numtostr(sessionStorage.getItem("cstbat"))
+        /*orderlist_5_2.textContent = sessionStorage.getItem("nmesolar")
+        orderlist_5_3.textContent = numtostr(sessionStorage.getItem("cstsolar"))*/
+        orderlist_6_2.textContent = sessionStorage.getItem("nmekitch")
+        orderlist_6_3.textContent = numtostr(sessionStorage.getItem("cstkitch"))
+        orderlist_7_2.textContent = sessionStorage.getItem("nmesus")
+        orderlist_7_3.textContent = numtostr(sessionStorage.getItem("cstsus"))
+        sumbill.textContent = numtostr(sessionStorage.getItem("sumbill"))
+        function numtostr(x){
+            let xs = String(x)
+            let lx = xs.length
+            let xrt = ""
+            if (xs == 0){
+                xrt = "0 THB"
+            }
+            else{
+                for (let i = 0; i < lx; i++){
+                    if (lx - 3 == i){
+                        xrt += ","
+                    }
+                    if (lx - 6 == i && lx > 6){
+                        xrt += ","
+                    }
+                    xrt += xs[i]
+                }
+                xrt += " THB"
+            }
+            return xrt
+        }
+</script>
+</body>
+
+</html>

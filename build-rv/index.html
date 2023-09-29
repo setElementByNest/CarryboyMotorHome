@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUILD YOUR RV</title>
+    <link rel="icon" type="text/png" href="img/logo-mini.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style_con.css">
+    <link rel="stylesheet" type="text/javascript"
+        href="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/3.4.0/js/blueimp-gallery.min.js">
+    <script src="script.js"></script>
+    <script src="script_con.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("sCqoBwTJnEfEy3AqX");
+        })();
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js">
+    </script>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 100);
+            //document.getElementById("loading").style.display = "none";
+        }
+
+        function showPage() {
+            document.getElementById("loading").style.opacity = 0;
+            document.getElementById("header").style.opacity = 1;
+            document.getElementById("info_box").style.opacity = 1;
+            document.getElementById("imgload").style.display = 'none';
+            document.getElementById("loading").style.display = 'none';
+        }
+    </script>
+    <!--<script type="text/javascript" src="mysql_setting.js"></script>-->
+</head>
+
+<body onload="myFunction()">
+    <section id="z_index_1">
+        <header id="header" style="opacity: 0;">
+            <img id="logo" src="img/logo.png" alt="" height="25"  onClick="window.location.href = 'https://carryboymotorhome.com/'" />
+            <div class="b" style="right: -100vw">
+                <a title="Home" href='https://carryboymotorhome.com/'>Overview</a>
+                <a title="Specs" href='https://carryboymotorhome.com/specs.html'>Specs & Features</a>
+                <a title="Build your RV" href='https://carryboymotorhome.com/build-rv/'>Build your RV</a>
+                <a title="gallery" href='https://carryboymotorhome.com/gallery.html'>Gallery</a>
+                <a title="Contact" href='https://carryboymotorhome.com/contact.html'>Contact</a>
+            </div>
+            <div class="a">
+                <a class="lang" href="TH/index.html" target="_parent">TH</a>
+                <a class="nav-open fa fa-navicon" id="nav_open" onclick="nav_open()" style="font-size:20px"></a>
+                <a class="nav-close fa fa-remove" id="nav_close" onclick="nav_close()"style="font-size:20px"></a>
+                <a onclick="cto()" class="sum1" id="sum1">1,963,000 THB</a>
+            </div>
+        </header>
+        <div class='navmobile' id='nav'>
+            <a href="https://carryboymotorhome.com/">Overview</a>
+            <a href="https://carryboymotorhome.com/specs.html">Specs & Features</a>
+            <a href='https://carryboymotorhome.com/build-rv/' >Build your RV</a>
+            <a href='https://carryboymotorhome.com/gallery.html'>Gallery</a>
+            <a href="https://carryboymotorhome.com/contact.html">Contact</a>
+        </div>
+        <div style="display: flex; position: absolute; width: 100%; height: 100%; background-color: #ffffff;
+        justify-content: center; align-items: center; opacity: 1; transition: opacity 0.5s;" id="loading">
+            
+            <div class="loader" ><img id="logo_load" src="img/logo-mini.png" alt="" width="25px" height="25px"></div>
+            <style>
+                .loader {
+                  border: 5px solid #d2d2d2;
+                  border-radius: 50%;
+                  border-top: 5px solid #4100f5;
+                  width: 50px;
+                  height: 50px;
+                  -webkit-animation: spin 2s linear infinite; /* Safari */
+                  animation: spin 2s linear infinite;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                .loader #logo_load{
+                  -webkit-animation: spini 2s linear infinite; /* Safari */
+                  animation: spini 2s linear infinite;
+                }
+                
+                /* Safari */
+                @-webkit-keyframes spin {
+                  0% { -webkit-transform: rotate(0deg); }
+                  100% { -webkit-transform: rotate(360deg); }
+                }
+                
+                @keyframes spin {
+                  0% { transform: rotate(0deg); }
+                  100% { transform: rotate(360deg); }
+                }
+
+                @-webkit-keyframes spini {
+                  0% { -webkit-transform: rotate(360deg); }
+                  100% { -webkit-transform: rotate(0deg); }
+                }
+                
+                @keyframes spini {
+                  0% { transform: rotate(360deg); }
+                  100% { transform: rotate(0deg); }
+                }
+                </style>
+        </div>
+        <div id="imgload" style="position: absolute; width: 100%; height: 100%; background: #4100f5; display: grid; 
+        grid-template-columns: 25% 25% 25% 25%;grid-template-rows: 20% 20% 20% 20% 20%; opacity: 0;">
+            <img src="img/battery/bat_A01.jpg" alt="" width="100%">
+            <img src="img/battery/bat_A02.jpg" alt="" width="100%">
+            <img src="img/battery/bat_A03.jpg" alt="" width="100%">
+            <img src="img/interior/int_01.jpg" alt="" width="100%">
+            <img src="img/interior/int_02.jpg" alt="" width="100%">
+            <img src="img/interior/int_03.jpg" alt="" width="100%">
+            <img src="img/interior/int_04.jpg" alt="" width="100%">
+            <img src="img/kitchen/draft_1_1.png" alt="" width="100%">
+            <img src="img/kitchen/draft_1_2.png" alt="" width="100%">
+            <img src="img/suspension/set_01.jpg" alt="" width="100%">
+            <img src="img/suspension/set_02.jpg" alt="" width="100%">
+            <img src="img/suspension/set_03.jpg" alt="" width="100%">
+            <img src="img/Vehicle_rv_toyota_e_01.jpg" alt="" width="100%">
+            <img src="img/Vehicle_rv_toyota_e_02.jpg" alt="" width="100%">
+            <img src="img/Vehicle_rv_toyota_e_03.jpg" alt="" width="100%">
+            <img src="img/Vehicle_rv_toyota_e_04.jpg" alt="" width="100%">
+            <img src="img/Vehicle_rv_mitsu_e.jpg" alt="" width="100%">
+            <img src="img/air/Ari-con-1.jpg" alt="" width="100%">
+            <img src="img/air/Ari-con-2.jpg" alt="" width="100%">
+        </div>
+        <div class="info_box" id="info_box" style="opacity: 0;">
+            <div class="ex_img" id="img" onclick="nav_close()">
+                <script>
+                    ChangePicture('img/Vehicle_rv_toyota_e_01.jpg')
+                </script>
+                <!--<img id="img" src="img/Vehicle_rv_toyota_e_01.jpg" alt="" width="100%" height="100%" class="img">-->
+                <div class="footer">
+                    <div class="subfoot" onclick="cto()">
+                        <h3>Total prices : <span id="sum2">1,963,000 THB</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="info_bar" style="justify-content: center;" id="info_bar" onscroll="myscroll()">
+                <div class="post2" id="post2">
+                    <h2>BUILD YOUR RV</h2>
+                </div>
+                <div class="post3">
+                    <h2>VEHICLE BASE</h2>
+                    <div class="text_box">
+                        <input type="radio" name="car_main" id="car_main_1" style="display: none;" checked>
+                        <input type="radio" name="car_main" id="car_main_2" style="display: none;">
+                        <label for="car_main_1" class="car_main_1" onclick="car1(0)">TOYOTA HILUX REVO</label>
+                        <label for="car_main_2" class="car_main_2" onclick="car2(0)">MITSUBISHI TRITON</label>
+                    </div>
+                </div>
+                <div class="post5" id="post5">
+                    <div id="car_sub_group_1">
+
+                        <input type="radio" name="car_sub" id="car_sub_1" style="display: none;" checked>
+                        <input type="radio" name="car_sub" id="car_sub_2" style="display: none;">
+                        <input type="radio" name="car_sub" id="car_sub_3" style="display: none;">
+                        <input type="radio" name="car_sub" id="car_sub_4" style="display: none;">
+                        <label for="car_sub_1" class="car_sub" onclick="car1(0)">
+                            <div class="car_sub_box" id="car_sub_box_1">
+                                <h3 id="car_sub_text1_1"></h3>
+                                <h3 id="car_sub_text1_2"></h3>
+                            </div>
+                        </label>
+
+                        <label for="car_sub_2" class="car_sub" onclick="car1(1)">
+                            <div class="car_sub_box" id="car_sub_box_2">
+                                <h3 id="car_sub_text2_1"></h3>
+                                <h3 id="car_sub_text2_2"></h3>
+                            </div>
+                        </label>
+                        <label for="car_sub_3" class="car_sub" onclick="car1(2)">
+                            <div class="car_sub_box" id="car_sub_box_3">
+                                <h3 id="car_sub_text3_1"></h3>
+                                <h3 id="car_sub_text3_2"></h3>
+                            </div>
+                        </label>
+                        <label for="car_sub_4" class="car_sub" onclick="car1(3)">
+                            <div class="car_sub_box" id="car_sub_box_4">
+                                <h3 id="car_sub_text4_1"></h3>
+                                <h3 id="car_sub_text4_2"></h3>
+                            </div>
+                        </label>
+                    </div>
+                    <div id="car_sub_group_2" style="display: none;">
+                        <input type="radio" name="car_sub" id="car_sub_5" style="display: none;">
+                        <label for="car_sub_5" class="car_sub" onclick="car2(0)">
+                            <div class="car_sub_box" id="car_sub_box_5">
+                                <h3 id="car_sub_text5_1"></h3>
+                                <h3 id="car_sub_text5_2">2,070,000 THB</h3>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="post6" id="post6">
+                    <div style="text-align: center;margin-top: 100px; border-bottom: #000000 solid 1px; margin: 10px;">
+                        <h2 style="margin: 0;padding-bottom: 20px;">INTERIOR</h2>
+                    </div>
+                    <h3 style="margin: 15px 0 10px 0; text-align: center;">Laminate</h3>
+                    <div class="colorbox">
+                        <div style="display: block; width: fit-content;">
+                            <div class="bord" id="cc1btn" style="border: #4100f5 solid 3px;">
+                                <label for="cc1" onclick="btn_img1()"><span class="circle1"></span></label>
+                            </div>
+                            <h3 style="margin: 0;">Lite</h3>
+                        </div>
+                        <div style="display: block; width: fit-content;">
+                            <div class="bord" id="cc2btn">
+                                <label for="cc2" onclick="btn_img2()"><span class="circle2"></span></label>
+                            </div>
+                            <h3 style="margin: 0;">Classic</h3>
+                        </div>
+                        <input type="radio" id="cc1" name="cc" style="display: none;" checked>
+                        <input type="radio" id="cc2" name="cc" style="display: none;">
+                    </div>
+                    <h3 style="margin: 0;padding-top: 20px; text-align: center;">High-Gloss</h3>
+                    <div class="colorbox2">
+                        <div style="display: block; width: fit-content;">
+                            <div class="bord2" id="ccAbtn" style="border: #4100f5 solid 3px;">
+                                <label for="ccA" onclick="btn_imgA()">
+                                    <span class="circleA"></span>
+                                </label>
+                            </div>
+                            <h3 style="margin: 0;">Flat white</h3>
+                        </div>
+                        <div style="display: block; width: fit-content;">
+                            <div class="bord2" id="ccBbtn">
+                                <label for="ccB" onclick="btn_imgB()"><span class="circleB" id="ccAbtn"></span></label>
+                            </div>
+                            <h3 style="margin: 0;">Black</h3>
+                        </div>
+                        <input type="radio" id="ccA" name="ccd" style="display: none;" checked>
+                        <input type="radio" id="ccB" name="ccd" style="display: none;">
+                    </div>
+                    <div
+                        style="display: flex; justify-content:center; width: 100%; align-items: center; font-size: 13px;">
+                        <h3 id="textcolor1" style="font-weight: 400;">Lite , Flat white</h3>
+                        <h4 id="textcolor2" style="margin-left: 10px;">Included</h4>
+                    </div>
+                </div>
+                <h2
+                    style="margin: 100px 0 0 0; border-bottom: #000000 solid 1px; padding-bottom: 20px; text-align: center;">
+                    OPTION</h2>
+                <div class="post7" id="post7">
+                    <h3>AIR CONDITIONER</h3>
+                    <input type="radio" name="post7" id="choice_1" style="display: none;" checked>
+                    <input type="radio" name="post7" id="choice_2" style="display: none;">
+                    <label for="choice_1" class="choice" onclick="air(1)">
+                        <div class="text_choice" id="text_choice_1">
+                            <div class="text_head_choice">
+                                <h3 id="atext1_1">DC Standard Aircon</h3>
+                                <h3 id="atext1_2">Included</h3>
+                            </div>
+                            <div class="text_sub_choice" id="text_sub_choice_1">
+                                <h4>Electric compressor</h4>
+                                <h4>Di-charge 150a</h4>
+                                <h4>LI-IP 800a/80a ac charger</h4>
+                                <h4>Solar roof 535w/Control car-charger 60a MTTP</h4>
+                            </div>
+                        </div>
+                    </label>
+                    <label for="choice_2" class="choice" onclick="air(2)">
+                        <div class="text_choice" id="text_choice_2">
+                            <div class="text_head_choice">
+                                <h3 id="atext2_1">HARRIER plus</h3>
+                                <h3 id="atext2_2">67,500 THB</h3>
+                            </div>
+                            <div class="text_sub_choice" id="text_sub_choice_2">
+                                <h4>Di-charge 150a</h4>
+                                <h4>LI-IP 800a/80a ac charger</h4>
+                                <h4>Additional Aircon</h4>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div class="post10" id="post10">
+                    <div class="group" id="batteryh">
+                        <h3>BATTERY</h3>
+                        <input type="radio" name="battery" id="battery_1" style="display: none;" checked>
+                        <input type="radio" name="battery" id="battery_2" style="display: none;">
+                        <input type="radio" name="battery" id="battery_3" style="display: none;">
+                        <label for="battery_1" class="box" onclick="bat(0)">
+                            <div class="text_box" id="b_box_1">
+                                <h3 id="text1_1">9,600 Watt</h3>
+                                <h3 id="text1_2">Included</h3>
+                            </div>
+                        </label>
+                        <label for="battery_2" class="box" onclick="bat(1)">
+                            <div class="text_box" id="b_box_2">
+                                <h3 id="text2_1">14,400 Watt</h3>
+                                <h3 id="text2_2">1,200 THB</h3>
+                            </div>
+                        </label>
+                        <label for="battery_3" class="box" onclick="bat(2)">
+                            <div class="text_box" id="b_box_3">
+                                <h3 id="text3_1">19,200 Watt</h3>
+                                <h3 id="text3_2">2,400 THB</h3>
+                            </div>
+                        </label>
+
+                    </div>
+                </div>
+                <div class="post11" id="post11">
+                    <div class="group" id="kich">
+                        <h3 style="margin-bottom: 0;">SLIDE KITCHEN</h3>
+                        <h5>The Slide Kitchen can be set up or packed up in 15 seconds! Simply pull 
+                            the slam latch drawer handle and roll out the stainless steel bench. 
+                            Once fully extended, the bench locks into place and to complete 
+                            the full setup, lift the red locking tab to release 
+                            the swing-away stove and sink.</h5>
+                        <div style="display: grid; gap: 2%; grid-template-columns: 69% 29%;">
+                            
+                            <input type="radio" name="kic" id="kitchen_1" style="display: none;" checked>
+                            <input type="radio" name="kic" id="kitchen_2" style="display: none;">
+                            <label for="kitchen_1" class="box" onclick="kitch(0)">
+                                <div class="text_box" id="k_box_1">
+                                    <h3 id="text1_1">Yes</h3>
+                                    <h3 id="text1_2">38,000 THB</h3>
+                                </div>
+                            </label>
+                            <label for="kitchen_2" class="box" onclick="kitch(1)">
+                                <div class="text_box" id="k_box_2">
+                                    <h3 id="text2_1">No</h3>
+                                    
+                                </div>
+                            </label>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <div class="post9" id="post9">
+                    <div class="group" id="sush">
+                        <h3>SUSPENSION</h3>
+                        <div>
+                            <input type="radio" name="sus" id="sus_1" style="display: none;" checked>
+                            <input type="radio" name="sus" id="sus_2" style="display: none;" >
+                            <input type="radio" name="sus" id="sus_3" style="display: none;">
+                            <label for="sus_1" class="choice" onclick="sus(0)">
+                                <div class="text_choice" id="sus_box_1">
+                                    <div class="text_head_choice">
+                                        <h3 id="atext1_1">Standard</h3>
+                                        <h3 id="atext1_2">Option</h3>
+                                    </div>
+                                    <div class="text_sub_choice" id="sus_sub_choice_1">
+                                        <h4>• Front shock absorber / Monotube <br>(Explorer REVO 4wd GT-series)</h4>
+                                        <h4>• Rear shock absorber / SUBTANK 8 LEVEL <br>(Explorer REVO 4wd M16 series)</h4>
+                                        <h4>• Standard stabilizer arm</h4>
+                                        <h4>• 9-10” shakle</h4>
+                                        <h4>• Standard leaf spring</h4>
+                                    </div>
+                                </div>
+                            </label>
+                            <label for="sus_2" class="choice" onclick="sus(1)">
+                                <div class="text_choice" id="sus_box_2">
+                                    <div class="text_head_choice">
+                                        <h3 id="atext2_1">Set A</h3>
+                                        <h3 id="atext2_2">Option</h3>
+                                    </div>
+                                    <div class="text_sub_choice" id="sus_sub_choice_2">
+                                        <h4>• Front & Rear  Sub-tank shock absorber 8 level <br>(AC power)</h4>
+                                        <h4>• Front & Rear stabilizer arm <br>(AC power)</h4>
+                                        <h4>• Suspension tune-up (AC power)</h4>
+                                        <h4>• 9-10” shakle</h4>
+                                        <h4>• Standard leaf spring</h4>
+                                    </div>
+                                </div>
+                            </label>
+                            <label for="sus_3" class="choice" onclick="sus(2)">
+                                <div class="text_choice" id="sus_box_3">
+                                    <div class="text_head_choice">
+                                        <h3 id="atext2_1">Set B</h3>
+                                        <h3 id="atext2_2">Option</h3>
+                                    </div>
+                                    <div class="text_sub_choice" id="sus_sub_choice_3">
+                                        <h4>• Front  & Rear  tune 2 way  2.5 shock absorber /
+                                            <br>sub-tank 8 level (AC power)</h4>
+                                        <h4>• Front & Rear stabilizer arm</h4>
+                                        <h4>• Suspension tune-up by AC power</h4>
+                                        <h4>• 9-10” shakle</h4>
+                                        <h4>• Standard leaf spring</h4>
+                                    </div>
+                                </div>
+                            </label>
+                            <!--label for="sus_1" class="box" onclick="sus(0)">
+                                <div class="text_box" id="sus_box_1">
+                                    <h3 id="text1_1">Standard</h3>
+                                </div>
+                            </label>
+                            <label for="sus_2" class="box" onclick="sus(1)">
+                                <div class="text_box" id="sus_box_2">
+                                    <h3 id="text2_1">Set A</h3>
+                                </div>
+                            </label>
+                            <label for="sus_3" class="box" onclick="sus(2)">
+                                <div class="text_box" id="sus_box_3">
+                                    <h3 id="text3_1">Set B</h3>
+                                </div>
+                            </label-->
+                        </div>
+
+                    </div>
+                </div>
+                <div class="post1" id="grad1">
+                    <h2>Standard Features</h2>
+                    <div class="text_box">
+                        <h3>360 Camera</h3>
+                        <h3>120 Liters Fresh water Tank</h3>
+                        <h3>80 Liters Grey water Tank</h3>
+                        <h3>50 Liters Fridge</h3>
+                        <h3>Microwave</h3>
+                        <h3>Electric Entry Step</h3>
+                        <h3>50 Liters Dometic fridge</h3>
+                        <h3>32" Smart TV</h3>
+                        <h3>Standard Suspension</h3>
+                        <h3>Rear ladder</h3>
+                    </div>
+                </div>
+                <div class="post12" id="grad2">
+                    <h2>Order your RV</h2>
+                    <div>
+                        <input type="button" class="bt_continue" value="Continue to Order" onclick="cto()">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blurback" id="z_index_2" onclick="btcancel()"></div>
+
+        <form class="info1" id="z_index_3">
+            <div class="head_order">
+                <h2>TOTAL PRICE</h2>
+                <h2 id="sumbill" style="color: #c50000; font-weight: 500;">2,048,00 THB</h2>
+            </div>
+
+
+            <div class="orderlist">
+                <h2 class="L1" id="orderlist_1_1">VEHICLE BASE</h2>
+                <h2 class="L2" id="orderlist_1_2"></h2>
+                <h2 class="L3" id="orderlist_1_3"></h2>
+                <h2 class="L1" id="orderlist_2_1">INTERIOR</h2>
+                <h2 class="L2" id="orderlist_2_2"></h2>
+                <h2 class="L3" id="orderlist_2_3"></h2>
+                <h2 class="L1" id="orderlist_3_1">AIR CONDITIONER</h2>
+                <h2 class="L2" id="orderlist_3_2"></h2>
+                <h2 class="L3" id="orderlist_3_3"></h2>
+                <h2 class="L1" id="orderlist_4_1">BATTERY</h2>
+                <h2 class="L2" id="orderlist_4_2"></h2>
+                <h2 class="L3" id="orderlist_4_3"></h2>
+                <!--h2 class="L1" id="orderlist_5_1">SOLAR 535W ROOFTOP</h2>
+                <h2 class="L2" id="orderlist_5_2"></h2>
+                <h2 class="L3" id="orderlist_5_3"></h2-->
+                <h2 class="L1" id="orderlist_6_1">SLIDE KITCHEN</h2>
+                <h2 class="L2" id="orderlist_6_2"></h2>
+                <h2 class="L3" id="orderlist_6_3"></h2>
+                <h2 class="L1" id="orderlist_7_1">SUSPENSION</h2>
+                <h2 class="L2" id="orderlist_7_2"></h2>
+                <h2 class="L3" id="orderlist_7_3"></h2>
+            </div>
+            <div class="body_info1">
+                <div class="form_info1">
+
+                    <div class="block_form">
+                        <label for="name_info1">Name :</label>
+                        <input type="text" name="name" id="name_info1" onfocusout="checktext('name_info1')">
+                    </div>
+                    <div class="block_form">
+                        <label for="lastname_info1">Last name : </label>
+                        <input type="text" name="lastname" id="lastname_info1" onfocusout="checktext('lastname_info1')">
+                    </div>
+                    <div class="block_form">
+                        <label for="phone_info1">Phone : </label>
+                        <input type="text" name="phone" id="phone_info1" onfocusout="checktext('phone_info1')">
+                    </div>
+                    <div class="block_form">
+                        <label for="email_info1">E-mail : </label>
+                        <input type="email" name="email" id="email_info1" onfocusout="checktext('email_info1')">
+                    </div>
+                </div>
+            </div>
+            <div class="placebutton">
+                <div class="billbutton">
+                    <input type="button" class="btcancel" value="Cancel" onclick="btcancel()">
+                    <input type="button" class="btsent" value="Submit" onclick="next()">
+                </div>
+            </div>
+        </form>
+        <script>
+            document.getElementById("car_sub_text1_1").textContent = nmecar1[0]
+            document.getElementById("car_sub_text2_1").textContent = nmecar1[1]
+            document.getElementById("car_sub_text3_1").textContent = nmecar1[2]
+            document.getElementById("car_sub_text4_1").textContent = nmecar1[3]
+            document.getElementById("car_sub_text1_2").textContent = numtostr(cstcar1[0])
+            document.getElementById("car_sub_text2_2").textContent = numtostr(cstcar1[1])
+            document.getElementById("car_sub_text3_2").textContent = numtostr(cstcar1[2])
+            document.getElementById("car_sub_text4_2").textContent = numtostr(cstcar1[3])
+            sessionStorage.setItem("cstcar", cstcar1[0])
+            sessionStorage.setItem("nmecar", nmecar1[0])
+            sessionStorage.setItem("cstcolor", cstcolor[0])
+            sessionStorage.setItem("nmecolor", nmecolor1[0] + ' , ' + nmecolor2[0])
+            sessionStorage.setItem("cstair", cstair[0])
+            sessionStorage.setItem("nmeair", nmeair[0])
+            sessionStorage.setItem("cstbat", cstbat[0])
+            sessionStorage.setItem("nmebat", nmebat[0])
+            /*sessionStorage.setItem("cstsolar", cstsolar[0])
+            sessionStorage.setItem("nmesolar", nmesolar[0])*/
+            sessionStorage.setItem("cstkitch", cstkitch[0])
+            sessionStorage.setItem("nmekitch", nmekitch[0])
+            sessionStorage.setItem("cstsus", cstsus[0])
+            sessionStorage.setItem("nmesus", nmesus[0])
+            sumcost()
+        </script>
+    </section>
+</body>
+
+</html>
