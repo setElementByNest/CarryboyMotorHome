@@ -1,0 +1,182 @@
+.Interior {
+    height: 100%;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-shadow: 0 10px 20px #000000;
+}
+
+.Int_head {
+    width: 100%;
+    height: 50vh;
+    background: url('/img_specs/int_head.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;    
+    justify-content: end;
+    align-items: center;
+}
+
+.Int_head h2 {
+    font-size: 5vw;
+    font-weight: 500;
+    font-family: 'Kanit';
+    padding-right: 20vw;
+}
+
+.Int_grid {
+    width: 90vw;
+    margin: 0 0 10vh 0;
+    background: none;
+    border: #888888 solid 1px;
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    padding: 5vh 0;
+}
+.igrid {
+    height: 180px;
+    width: 320px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+    margin: 5px;
+}
+.igrid:hover {
+    background-size: auto 110%;
+}
+.Int_grid p {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.2s;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    background: #00000088;
+}
+.Int_grid p:hover {
+    opacity: 1;
+}
+.igrid_01 {
+    background: url('/img_specs/int/ibox_01.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_02 {
+    background: url('/img_specs/int/ibox_02.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_03 {
+    background: url('/img_specs/int/ibox_03.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_04 {
+    background: url('/img_specs/int/ibox_04.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_05 {
+    background: url('/img_specs/int/ibox_05.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_06 {
+    background: url('/img_specs/int/ibox_06.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_07 {
+    background: url('/img_specs/int/ibox_07.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_08 {
+    background: url('/img_specs/int/ibox_08.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_09 {
+    background: url('/img_specs/int/ibox_09.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_10 {
+    background: url('/img_specs/int/ibox_10.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_11 {
+    background: url('/img_specs/int/ibox_11.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_12 {
+    background: url('/img_specs/int/ibox_12.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_13 {
+    background: url('/img_specs/int/ibox_13.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+.igrid_14 {
+    background: url('/img_specs/int/ibox_14.jpg') no-repeat;
+    background-size: auto 100% ;
+    background-position: center;
+}
+
+.igrid_03:hover {
+    background: url('/img_specs/int/ibox_03_h.jpg') no-repeat;
+    background-size: auto 110% ;
+    background-position: center;
+}
+
+.igrid_04:hover {
+    background: url('/img_specs/int/ibox_04_h.jpg') no-repeat;
+    background-size: auto 105% ;
+    background-position: center;
+}
+
+.igrid_05:hover {
+    background: url('/img_specs/int/ibox_05_h.jpg') no-repeat;
+    background-size: auto 110% ;
+    background-position: center;
+}
+
+.igrid_06:hover {
+    background: url('/img_specs/int/ibox_06_h.jpg') no-repeat;
+    background-size: auto 110% ;
+    background-position: center;
+}
+
+.igrid_07:hover {
+    background: url('/img_specs/int/ibox_07_h.jpg') no-repeat;
+    background-size: auto 110% ;
+    background-position: center;
+}
+
+.igrid_14:hover {
+    background: url('/img_specs/int/ibox_14_h.jpg') no-repeat;
+    background-size: auto 110% ;
+    background-position: center;
+}
+
+@media (max-width:1100px) {  
+    .Int_head h2 {
+        font-size: 10vw;
+        padding-right: 10vw;
+    }  
+    .Int_head {
+        height: 30vh;
+    }
+
+}
