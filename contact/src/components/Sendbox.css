@@ -1,0 +1,195 @@
+.Sendbox {
+    position: relative;
+    display: flex;
+    height: 90%;
+    width: 100%;
+    padding: 0;
+    top: 10%;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    height: 70%;
+    width: 70%;
+    margin: 5% 10%;
+    border-radius: 25px;
+    box-shadow: 0 0px 25px 1px #00000088;
+    padding: 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.laput {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 50%;
+}
+
+.laput_50 {
+    width: 48%;
+}
+
+.laput_100 {
+    width: 100%;
+}
+
+.laput_100h {
+    width: 100%;
+    height: 50%;
+}
+
+label {
+    font-size: 1.5vw;
+}
+
+input {
+    background: #eeeeff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 1.2vw;
+    width: calc(100% - 20px);
+    color: black;
+    padding: 5px 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+textarea {
+    background: #eeeeff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 1.2vw;
+    width: calc(100% - 20px);
+    color: black;
+    padding: 5px 10px;
+    height: 100%;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.send_button {
+    background: #0767D8;
+    height: 50px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.send_button:hover{
+    background: #111111;
+    border: none;
+}
+
+.send_button .fa {
+    font-size: 1vw;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.send_button:focus{
+    outline: none;
+}
+
+.buttonbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+input::selection {
+    background-color: #0767D844;
+    color: #222222;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 500px #eeeeff inset;
+    -webkit-text-fill-color: #0767D8;
+}
+
+#buttonsign1 {
+    display: flex;
+}
+
+#buttonsign2 {
+    display: none;
+}
+
+#text_button_contact {
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+@media (max-width: 1100px) {
+    .Sendbox {
+        position: relative;
+        display: flex;
+        height: 65vh;
+        width: 100%;
+        padding: 0;
+        top: 20vh;
+    }
+    
+    .box {
+        height: 70%;
+        width: 80%;
+        margin: 5% 5%;
+        border-radius: 10px;
+        box-shadow: 0 0px 15px 1px #00000066;
+        padding: 5%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    label {
+        font-size: 3vw;
+    }
+    
+    input {
+        background: #eeeeff;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25) inset;
+        font-size: 3vw;
+        width: calc(100% - 20px);
+        color: black;
+        padding: 5px 10px;
+    }
+    textarea {
+        background: #eeeeff;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25) inset;
+        font-size: 3vw;
+        width: calc(100% - 20px);
+        color: black;
+        padding: 5px 10px;
+        height: 100%;
+    }
+    #text_button_contact {
+        font-size: 4vw;
+        color: #ffffff;
+    }
+    .send_button {
+        height: 5vh;
+        color: #ffffff;
+    }
+    .send_button .fa {
+        font-size: 3.5vw;
+        color: #ffffff;
+    }
+}
