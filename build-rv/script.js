@@ -1,7 +1,7 @@
 var cost = 0
-let cstcar1 = [1963000, 1986000, 2073000, 2125000]
+let cstcar1 = [2003000, 2008000, 2113000, 2165000]
 let nmecar1 = ["2.4 ENTRY 2WD A/T", "2.8 ENTRY 2WD M/T", "2.8 ENTRY 4WD M/T", "2.8 ENTRY 4WD A/T"]
-let cstcar2 = [2070000]
+let cstcar2 = [2135000]
 let nmecar2 = ["2.4 ENTRY 4WD A/T"]
 let nmecolor1 = ["Lite", "Classic"]
 let nmecolor2 = ["Flat white", "Black"]
@@ -11,9 +11,9 @@ let cstbat = [0, 1200, 2400]
 let nmebat = ["9,600 Watt", "14,000 Watt", "19,200 Watt"]
 let cstsolar = [0, 0]
 let nmesolar = ["Yes", "No"]
-let cstkitch = [38000, 0]
+let cstkitch = [45000, 0]
 let nmekitch = ["Yes", "No"]
-let cstsus = [1000, 1500, 2000]
+let cstsus = [0, 95000, 95000]
 let nmesus = ["Standard", "Set A", "Set B"]
 
 let picintr1 = ["img/interior/int_01.jpg", "img/interior/int_02.jpg"]
@@ -121,7 +121,7 @@ function defl(){
     var stl2 = document.getElementById("cc2btn");
 //    var stl3 = document.getElementById("cc3btn");
 //    var stl4 = document.getElementById("cc4btn");
-stl1.style = "border: #ffffff solid 3px;"
+    stl1.style = "border: #ffffff solid 3px;"
     stl2.style = "border: #ffffff solid 3px;"
 //    stl3.style = "border: #ffffff solid 3px;"
 //    stl4.style = "border: #ffffff solid 3px;"
@@ -203,7 +203,7 @@ function btn_img1(){
     pic_intr()
     defl()
     var stl = document.getElementById("cc1btn");
-    stl.style = "border: #4100f5 solid 3px;"
+    stl.style = "border: #aa0000 solid 3px;"
     cost_color_now = cstcolor[0]
     sumcost()
 
@@ -214,7 +214,7 @@ function btn_img2(){
     pic_intr()
     defl()
     var stl2 = document.getElementById("cc2btn");
-    stl2.style = "border: #4100f5 solid 3px;"
+    stl2.style = "border: #aa0000 solid 3px;"
     cost_color_now = cstcolor[1]
     sumcost()
 }
@@ -222,7 +222,7 @@ function btn_imgA(){
     document.getElementById("info_bar").scrollTop = document.getElementById("post6").offsetTop
     def2()
     var stl = document.getElementById("ccAbtn");
-    stl.style = "border: #4100f5 solid 3px;"
+    stl.style = "border: #aa0000 solid 3px;"
     I_Iintr2 = 0
     pic_intr()
 }
@@ -230,7 +230,7 @@ function btn_imgB(){
     document.getElementById("info_bar").scrollTop = document.getElementById("post6").offsetTop
     def2()
     var stl = document.getElementById("ccBbtn");
-    stl.style = "border: #4100f5 solid 3px;"
+    stl.style = "border: #aa0000 solid 3px;"
     I_Iintr2 = 1 
     pic_intr()
 }
@@ -298,7 +298,6 @@ function kitch(x){
     document.getElementById("info_bar").scrollTop = document.getElementById("post11").offsetTop
     df_img_kitch = "img/kitchen/draft_1_" + String(x+1) + ".png"
     ChangePicture(df_img_kitch)
-    cost_sus_now = cstsus[x]
     cost_kitch_now = cstkitch[x]
     sumcost()
     sessionStorage.setItem("cstkitch", cstkitch[x])

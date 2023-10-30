@@ -55,12 +55,12 @@ header .a .sum1 {
     border: none;
     border-radius: 50px;
     font-weight: 400;
-    background-image: linear-gradient(to right, rgb(35, 35, 65), rgb(38, 40, 143));
+    background-image: linear-gradient(to right, #660000, #aa0000);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.1);
 }
 
 header .a a:hover {
-    filter: brightness(0.9);
+    filter: brightness(1.3);
     border: none;
 }
 
@@ -105,7 +105,7 @@ header .b a {
 
 header .b a:after {
     transition: all ease .2s;
-    background: linear-gradient(to right, rgb(19, 19, 107), rgb(38, 40, 143));
+    background: linear-gradient(to right, #660000, #aa0000);
     content: "";
     display: block;
     height: 3px;
@@ -117,7 +117,7 @@ header .b a:hover:after {
 }
 
 header .b a:hover {
-    text-shadow: 0px 5px 10px #4100f566;
+    text-shadow: 0px 5px 10px #aa000066;
 }
 
 header .nav-open {
@@ -178,7 +178,7 @@ header .nav-close {
 }
 
 #grad1 {
-    background-image: linear-gradient(to right, rgb(35, 35, 65), rgb(38, 40, 143));
+    background-image: linear-gradient(to right, #660000, #aa0000);
 }
 
 #grad2 {
@@ -195,7 +195,7 @@ header .nav-close {
     font-weight: 800;
     line-height: 20px;
     text-align: center;
-    background: #4100f5;
+    background: #aa0000;
     border-radius: 10px;
 }
 
@@ -331,27 +331,27 @@ header .nav-close {
 }
 
 #car_sub_1:checked~.car_sub #car_sub_box_1 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
 #car_sub_2:checked~.car_sub #car_sub_box_2 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
 #car_sub_3:checked~.car_sub #car_sub_box_3 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
 #car_sub_4:checked~.car_sub #car_sub_box_4 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
 #car_sub_5:checked~.car_sub #car_sub_box_5 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
@@ -553,7 +553,7 @@ header .nav-close {
 }
 
 #choice_1:checked~.choice #text_choice_1 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     height: 150px;
     transition: 0.1s;
 }
@@ -568,7 +568,7 @@ header .nav-close {
 }
 
 #choice_2:checked~.choice #text_choice_2 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     height: 130px;
     transition: 0.1s;
 }
@@ -614,12 +614,12 @@ header .nav-close {
 }
 
 #solar_1:checked~.box #sl_box_1 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
 #solar_2:checked~.box #sl_box_2 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
@@ -670,7 +670,7 @@ header .nav-close {
 }
 
 #sus_1:checked~.choice #sus_box_1 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     height: 180px;
     transition: 0.1s;
 }
@@ -686,7 +686,7 @@ header .nav-close {
 }
 
 #sus_2:checked~.choice #sus_box_2 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     height: 180px;
     transition: 0.1s;
 }
@@ -702,7 +702,7 @@ header .nav-close {
 }
 
 #sus_3:checked~.choice #sus_box_3 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     height: 180px;
     transition: 0.1s;
 }
@@ -740,17 +740,17 @@ header .nav-close {
 }
 
 #battery_1:checked~.box #b_box_1 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
 #battery_2:checked~.box #b_box_2 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
 #battery_3:checked~.box #b_box_3 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
@@ -804,12 +804,12 @@ header .nav-close {
 }
 
 #kitchen_1:checked~.box #k_box_1 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
 #kitchen_2:checked~.box #k_box_2 {
-    border: #4100f5 solid 3px;
+    border: #aa0000 solid 3px;
     transition: 0.2s;
 }
 
@@ -853,14 +853,14 @@ header .nav-close {
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    background: linear-gradient(to right, rgb(35, 35, 65), rgb(38, 40, 143));
+    background: linear-gradient(to right, #660000, #aa0000);
     ;
     border: none;
     border-radius: 6px;
 }
 
 .bt_continue:hover {
-    filter: brightness(1.5);
+    filter: brightness(1.2);
 }
 
 
@@ -996,7 +996,7 @@ footer h4 {
       }
     #sum1 {
         position: fixed;
-        background: linear-gradient(to right, rgb(35, 35, 65), rgb(38, 40, 143));
+        background: linear-gradient(to right, #660000, #aa0000);
         color: #ffffff;
         right: 50%;
         top: 37vh;

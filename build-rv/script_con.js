@@ -67,20 +67,20 @@ function btcancel(){
     info1.style = "display: none"
     blurback.style = "display: none"
     document.getElementById("name_info1").value = ''
-    document.getElementById("name_info1").style = "border: #4100f5 solid 1px;"
+    document.getElementById("name_info1").style = "border: #cccccc solid 1px;"
     document.getElementById("lastname_info1").value = ''
-    document.getElementById("lastname_info1").style = "border: #4100f5 solid 1px;"
+    document.getElementById("lastname_info1").style = "border: #cccccc solid 1px;"
     document.getElementById("phone_info1").value = ''
-    document.getElementById("phone_info1").style = "border: #4100f5 solid 1px;"
+    document.getElementById("phone_info1").style = "border: #cccccc solid 1px;"
     document.getElementById("email_info1").value = ''
-    document.getElementById("email_info1").style = "border: #4100f5 solid 1px;"
+    document.getElementById("email_info1").style = "border: #cccccc solid 1px;"
 
 
 }
 function sendMail(){
     var params = {
         name: sessionStorage.getItem("name") + " " + sessionStorage.getItem("lastname"),
-        email: sessionStorage.getItem("email") + ", nammonnnt@gmail.com",
+        email: sessionStorage.getItem("email"),
         call: sessionStorage.getItem("phone"),
         vihicle: sessionStorage.getItem("nmecar"),
         vihicle_cst: numtostr(sessionStorage.getItem("cstcar")),
