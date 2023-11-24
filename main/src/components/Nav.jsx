@@ -2,6 +2,9 @@ import React from "react";
 import './Nav.css'
 
 function Nav() {
+    function toFt() {
+        document.documentElement.scrollTop = document.getElementById('ft').offsetTop - 30;
+    }
     return (
         <div>
             <nav>
@@ -11,7 +14,7 @@ function Nav() {
 
                 <div className="list_desktop">
                     <a title="Home" href='https://carryboymotorhome.com/'>Overview</a>
-                    <a title="Specs" href='https://carryboymotorhome.com/specs.html'>Specs & Features</a>
+                    <a title="Video" href='https://carryboymotorhome.com/videopage.html'>Video Guide</a>
                     <a title="Build your RV" href='https://carryboymotorhome.com/build-rv/'>Build your RV</a>
                     <a title="gallery" href='https://carryboymotorhome.com/gallery.html'>Gallery</a>
                     <a title="Contact" href='https://carryboymotorhome.com/contact.html'>Contact</a>
@@ -22,18 +25,20 @@ function Nav() {
                         document.getElementById('navmobile').style.right = 0;
                         document.getElementById('nav_open').style.display = 'none';
                         document.getElementById('nav_close').style.display = 'inline-flex';
+                        document.body.style.overflowY = 'hidden'
                     }} style={{ fontSize: '20px' }}></a>
                     <a className="nav-close fa fa-remove" id="nav_close" onClick={function () {
                         document.getElementById('navmobile').style.right = '-150%';
                         document.getElementById('nav_open').style.display = 'inline-flex';
                         document.getElementById('nav_close').style.display = 'none';
+                        document.body.style.overflowY = 'scroll'
                     }} style={{ fontSize: '20px' }}></a>
                 </div>
             </nav>
 
             <div className='navmobile' id='navmobile'>
                 <a href='https://carryboymotorhome.com/' >Overview</a>
-                <a href='https://carryboymotorhome.com/specs.html'>Specs & Features</a>
+                <a href='https://carryboymotorhome.com/videopage.html'>Video Guide</a>
                 <a href='https://carryboymotorhome.com/build-rv/' >Build your RV</a>
                 <a href='https://carryboymotorhome.com/gallery.html'>Gallery</a>
                 <a href='https://carryboymotorhome.com/contact.html'>Contact</a>

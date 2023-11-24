@@ -98,38 +98,34 @@ function HeaderImg() {
                         }
                     }
                 }}*/>
-                <div className='seen1'>
+                <div className='seen1 q4'>
                     <div className='detail'>
                         <img src="/img_index/logo.png" alt="motorhome_logo" width={150} />
                         <h1>MotorHome</h1>
+                        <h2>It's all about life style</h2>
+                        <BuildyourrvButton />
+                    </div>
+                </div>
+                <div className='seen1 q1'>
+                    <div className='detail'>
+                        <img src="/img_index/logo.png" alt="motorhome_logo" width={150} />
+                        <h1>รถบ้านแครี่บอย</h1>
                         <h2>Life is definitely good with Motor Home</h2>
                         <BuildyourrvButton />
                     </div>
                 </div>
-                <div className='seen1 q2' id="q2">
+                <div className='seen1 q2'>
                     <div className='detail'>
                         <img src="/img_index/logo.png" alt="motorhome_logo" width={150} />
                         <h1>Recreational Vehicle</h1>
-                        <h2>Life is definitely good with Motor Home</h2>
                         <BuildyourrvButton />
                     </div>
                 </div>
-                <div className='seen1 q3' id="q2">
+                <div className='seen1 q3'>
                     <div className='detail'>
                         <img src="/img_index/logo.png" alt="motorhome_logo" width={150} />
-                        <h1>Your Home</h1>
-                        <h1 style={{margin: '0', transform: 'translate(0, -10px)'}}>Away from Home</h1>
-                        <h2>Life is definitely good with Motor Home</h2>
-                        <BuildyourrvButton />
-                    </div>
-                </div>
-                <div className='seen1 q4' id="q2">
-                    <div className='detail'>
-                        <img src="/img_index/logo.png" alt="motorhome_logo" width={150} />
-                        <h1>รถบ้าน</h1>
-                        <h1 style={{margin: '0', transform: 'translate(0, -10px)'}}>บ้านของคุณ</h1>
-                        <h1 style={{margin: '0', transform: 'translate(0, -20px)'}}>ทุกสถานที่</h1>
-                        <h2>Life is definitely good with Motor Home</h2>
+                        <h1>INTERIOR</h1>
+                        <h2 style={{transform: 'translate(0, -10px)'}}>ภายในหรูหรา พร้อมสิ่งอำนวย<br/>ความสะดวกครบครัน</h2>
                         <BuildyourrvButton />
                     </div>
                 </div>

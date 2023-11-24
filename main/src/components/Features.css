@@ -1,0 +1,355 @@
+.ft {
+    width: 100%;
+    background: linear-gradient(to bottom right, #dddddd, #fefefe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 40px;
+    color: #111111;
+    position: relative;
+}
+
+.ft h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 0 25px;
+}
+
+.ft_show {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ft_show-img {
+    background: url('/img_index/features/carryboy-motorhome-rv-interior-skyview-open.jpg') top center;
+    background-size: cover;
+    width: 60vw;
+    height: 35vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow: hidden;
+    position: relative;
+}
+
+.ft_show-img video {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    display: none;
+    outline: none;
+    border: none;
+}
+
+.ft_show-img-list {
+    width: 100%;
+    height: 100px;
+    background: #00000088;
+    display: flex;
+    transition: all 0.3s;
+    justify-content: center;
+}
+
+.ft_show-img-list-bt {
+    font-size: 18px;
+    padding: 4px 20px;
+    background: #cc0000;
+    border-radius: 50px;
+    margin: 0 20px 10px 0;
+    color: #eeeeee;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.ft_show-img-list-bt:hover {
+    background: #2d2d2d;
+}
+
+.ft_show-img-list-n {
+    width: 150px;
+    height: 80%;
+    background: #aa0000;
+    margin: 10px;
+    border-radius: 5px;
+    border: #aaaaaa solid 2px;
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+
+.ft_show-img-list-n:hover {
+    outline: #aa0000 solid 2px;
+    filter: brightness(1.1);
+}
+
+
+.ft_show-choose {
+    padding: 0 25px 0 0;
+}
+
+.ft h2 {
+    font-size: 2.5vw;
+    font-weight: 500;
+    font-family: 'Orbitron';
+}
+
+
+.ftchoose-n {
+    padding: 5px 10px;
+    border: #aaaaaa solid 2px;
+    width: 15vw;
+    margin: 0 0 10px 0;
+    border-radius: 6px;
+    outline: #aaaaaa00 solid 2px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.ftchoose-n:hover {
+    outline: #aaaaaaff solid 2px;
+    background: #ffffff44;
+}
+
+#ftchoose1 {
+    border: #cc0000 solid 2px;
+}
+
+.ftsub_3 {
+    background: none;
+    height: 100px;
+    margin: 10vh 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.ftsub_3_group {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 0 1%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ftsub_3_group_top {
+    width: 40px;
+    height: 50%;
+    background: none;
+    mix-blend-mode: difference;
+}
+
+#ftsilist1 {
+    display: flex;
+    background: url('/img_index/features/carryboy-motorhome-rv-interior-skyview-open.jpg') top center;
+    background-size: cover;
+    border: #ffffff solid 2px;
+}
+
+#ftsilist2 {
+    display: flex;
+    background: url('/img_index/features/carryboy-motorhome-rv-interior-skyview-close.jpg') top center;
+    background-size: cover;
+}
+
+#ftsilist3 {
+    display: none;
+}
+
+#ftsilist4 {
+    display: none;
+}
+
+/*
+#op01 {
+    background: url('/img_index/icon_option_hotel.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#op02 {
+    background: url('/img_index/icon_option_shower.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-position: center;
+}
+
+#op03 {
+    background: url('/img_index/icon_option_toilet.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#op04 {
+    background: url('/img_index/icon_option_fridge.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#op05 {
+    background: url('/img_index/icon_option_caravan.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#op06 {
+    background: url('/img_index/icon_option_water.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#op07 {
+    background: url('/img_index/icon_option_battery.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}*/
+
+
+.ftsub_3_group_bot {
+    width: 100%;
+    height: 50%;
+    background: none;
+    font-size: 13px;
+}
+
+.ft-load {
+    width: 50px;
+    height: 50px;
+    border-top: #aaaaaa00 solid 2px;
+    border-right: #cccccc solid 2px;
+    border-bottom: #aaaaaa00 solid 2px;
+    border-left: #cccccc solid 2px;
+    position: absolute;
+    border-radius: 50px;
+    left: 58%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    -webkit-animation: spinft 2s linear infinite;
+    animation: spinft 2s linear infinite;
+}
+
+@-webkit-keyframes spinft {
+    0% {
+        -webkit-transform: rotate(360deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@keyframes spinft {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 1100px) {
+    .ft {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 0 20px;
+    }
+
+    .ft h2 {
+        font-size: 5vw;
+        font-weight: 600;
+        font-family: 'Orbitron';
+    }
+
+    .ft_show {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .ft_show-img {
+        width: 96vw;
+        height: 55vw;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        overflow: hidden;
+    }
+
+    .ft_show-img-list-n {
+        width: 80px;
+        height: 80%;
+        background: #aa0000;
+        margin: 5px;
+        border-radius: 5px;
+        border: #aaaaaa solid 2px;
+        filter: brightness(0.8);
+        cursor: pointer;
+    }
+
+    .ft_show-img-list {
+        width: 100%;
+        height: 70px;
+        background: #00000088;
+        display: flex;
+        transition: all 0.3s;
+        justify-content: center;
+    }
+
+    .ft_show-img-list-bt {
+        font-size: 3vw;
+        padding: 1.5vw 4vw;
+        border-radius: 50px;
+        margin: 0 10px 10px 0;
+        cursor: pointer;
+        transition: all 0.3s;
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+    .ft_show-img-list-bt:hover {
+        background: #cc0000;
+    }
+
+    .ft_show-choose {
+        padding: 25px 0 0 0;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ftchoose-n {
+        padding: 5px 2vw;
+        border: #555555 solid 2px;
+        width: 40vw;
+        margin: 0 1vw 10px 1vw;
+        border-radius: 6px;
+        outline: #aaaaaa00 solid 2px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    .ft-load {
+        left: 45%;
+        top: 30%;
+    }
+}

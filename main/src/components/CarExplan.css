@@ -1,0 +1,111 @@
+.carex {
+    /*background: linear-gradient(to bottom, #880000, #220000);
+    background: #111111;*/
+    background: linear-gradient(to bottom left, #fefefe, #dddddd);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.carex-box {
+    width: fit-content;
+    background: none;
+    margin: 1vw 0vw;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.carex-box img {
+    width: auto;
+    height: 15vw;
+    object-fit: contain;
+    display: none;
+}
+
+.carex-box h2 {
+    font-weight: 400;
+    font-size: 2.5vw;
+    padding: 0 0 20px 0;
+    color: #eeeeee;
+}
+
+.carex-box-list-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.carex-box-list-1-sub {
+    border-bottom: #cccccc44 solid 1px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+}
+
+.carex-box-list-1-sub img{
+    height: 30px;
+    width: 30px;
+    margin-right: 1vw;
+    margin-left: 2vw;
+    object-fit: contain;
+    display: flex;
+    mix-blend-mode: difference;
+}
+
+.carex-box-list-1-sub h3{
+    font-weight: 300;
+    font-size: 1.3vw;
+    color: #eeeeee;
+}
+
+.carex-grid {
+    display: grid;
+    background: none;
+    width: 800px;
+    height: fit-content;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 10% 90%;
+    row-gap: 20px;
+    padding: 20px 0;
+}
+
+.carex-grid h2 {
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0 0 20px 0;
+    color: #444444;
+}
+
+.carex-box-list-1-sub h3{
+    font-weight: 300;
+    font-size: 18px;
+    color: #444444;
+}
+
+@media (max-width: 1100px){
+    .carex-grid {
+        width: 90%;
+        transform: translate(0, 0);
+        grid-template-rows: 5% 95%;
+    }
+    .carex-grid h2 {
+        font-size: 15px;
+    }
+    .carex-box-list-1-sub h3 {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .carex-box-list-1-sub img {
+        height: 25px;
+        width: 25px;
+        filter: brightness(0.3);
+    }
+}

@@ -1,18 +1,18 @@
 .pop1 {
-    z-index: 3;
+    /*z-index: 3;*/
     height: fit-content;
     width: 70%;
     display: none;
-    position: fixed;
+    position: relative;
     flex-direction: column;
     background: #ffffff;
-    top: 50%;
+    /*top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
     border-radius: 10px;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 1% 0 3% 0;
+    padding: 2% 15%;
 }
 
 .pop1 h2 {
@@ -25,6 +25,11 @@
 
 .pop1 input {
     margin: 0 15px;
+    cursor: pointer;
+}
+
+.pop1 label {
+    cursor: pointer;
 }
 
 .pop1_sap {
@@ -86,20 +91,17 @@
 
 @media (max-width: 1100px) {
     .pop1 {
-        z-index: 3;
+        z-index: 1;
         height: fit-content;
         width: 90%;
         display: none;
-        position: fixed;
+        position: relative;
         flex-direction: column;
         background: #ffffff;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         border-radius: 10px;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 1% 0 3% 0;
+        padding: 5%;
         font-size: 15px;
     }
 

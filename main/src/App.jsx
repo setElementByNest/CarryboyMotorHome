@@ -1,15 +1,18 @@
 import './App.css'
-import CarVS from './components/CarVS'
 import MenuSub from './components/MenuSub'
 import Pop1 from './components/Pop1'
 import Pop2 from './components/Pop2'
 import Pop3 from './components/Pop3'
-import Interior_1 from './components/Interior_1'
-import Exterior_1 from './components/Exterior_1'
 import Banner from './components/Banner'
 import Option_1 from './components/Option'
 import Footer from './components/Footer'
 import Nav from './components/Nav'
+import Features from './components/Features'
+import BothCar from './components/BothCar'
+import Interior_2 from './components/Interior_2'
+import Popup from './components/Popup'
+import CarExplan from './components/CarExplan'
+import Dimension from './components/Dimension'
 function App() {
   return (
     <>
@@ -31,12 +34,16 @@ function App() {
         id='contents'>
         <Banner/>
         <div className='subseen1'>
-          A Recreational Vehicle (RV) that offers the amenities of a hotel suite minus the expensive daily billing and service charges
+          <h3>Carryboy Motorhome</h3>
+          <p>“รถบ้านแครี่บอย อีกทางเลือกสำหรับผู้แสวงหาการท่องเที่ยวแบบไร้ขีดจำกัด”</p>
         </div>
-        <CarVS />
         <MenuSub />
-        <Interior_1 />
-        <Exterior_1 />
+        <BothCar />
+        <Interior_2 />
+        <Dimension />
+        <Pop1 />
+        <Features />
+        <CarExplan />
         <Option_1 />
         <Footer />
         <div className="blurback" id='blurback' onClick={function () {
@@ -48,9 +55,9 @@ function App() {
           sessionStorage.setItem("img_now_i", 1);
         }}>
         </div>
-        <Pop1 />
         <Pop2 />
         <Pop3 />
+        <Popup />
       </div>
 
     </>

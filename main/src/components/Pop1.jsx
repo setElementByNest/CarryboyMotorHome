@@ -22,7 +22,7 @@ function numtotext(x) {
     return xrt
 }
 function carprice() {
-    let carprice_array = [1978000, 2083000, 1973000, 2135000, 2105000];
+    let carprice_array = [2003000, 2008000, 2113000, 2165000, 2135000];
     let times_array = [12, 24, 36, 48, 60];
     var x = 0; var y = 0;
     if (document.getElementById('carradio1').checked == true){
@@ -78,16 +78,16 @@ function Pop1() {
                 margin: '1%',
                 marginLeft: '3%',
                 marginBottom: '2%',
-                paddingBottom: '1%',
-                borderBottom: '#aaaaaa solid 1px'
+                paddingBottom: '1%'
             }}>
-                <h2 style={{fontWeight: '400'}}>คำนวณค่างวดรถบ้าน</h2>
+                <h2 style={{fontWeight: '400'}}>ราคาค่างวดรถบ้านเริ่มต้น</h2>
                 <div className="fa fa-close" style={{
                     background: 'none',
                     border: 'none',
                     fontSize: '25px',
                     cursor: 'pointer',
-                    color: '#000000'
+                    color: '#000000',
+                    display: 'none'
             }}
                     onClick={function () {
                         document.getElementById('pop1').style.display = 'none';
@@ -108,9 +108,9 @@ function Pop1() {
                         <label htmlFor="carradio3">2.8 ENTRY 4WD M/T</label><br />
                         <input type="radio" id="carradio4" name="carradio" value="2135000" />
                         <label htmlFor="carradio4">2.8 ENTRY 4WD A/T</label>
-                        <h4>MITSUBISHI TRITON</h4>
+                        <h4>MITSUBISHI TRITON 2023</h4>
                         <input type="radio" id="carradio5" name="carradio" value="2105000" />
-                        <label htmlFor="carradio5">2.4 ENTRY 2WD A/T</label>
+                        <label htmlFor="carradio5">2.4 Pro 4WD A/T</label>
                     </form>
                     <form name="timesradio" action="" onClick={carprice}>
                         <h3 style={{fontWeight: '400', marginBottom: '10px'}}>จำนวนงวดผ่อน</h3>
@@ -135,27 +135,27 @@ function Pop1() {
                 <div className="pop1_sap_div_2">
                     <div className="pop1_cal">
                         <p>ราคาพร้อมตู้</p>
-                        <p id='carprice'>1,978,000</p>
+                        <p id='carprice'>2,003,000</p>
                         <p>บาท</p>
 
                         <p>ดาวน์ 25%</p>
-                        <p id="downprice">494,500</p>
+                        <p id="downprice">500,750</p>
                         <p>บาท</p>
 
                         <p>ยอดจัดไฟแนนซ์</p>
-                        <p id="jadprice">1,483,500</p>
+                        <p id="jadprice">1,502,250</p>
                         <p>บาท</p>
 
                         <p>ดอกเบี้ย 3.5%</p>
-                        <p id="beerprice">103,845</p>
+                        <p id="beerprice">105,157</p>
                         <p>บาท</p>
                         
                         <p style={{ color: '#aa0000', fontWeight: '500', fontSize: '25px' }}>ราคาต่องวด</p>
-                        <p style={{ color: '#aa0000', fontWeight: '500', fontSize: '25px' }} id="installmentprice">66,140</p>
+                        <p style={{ color: '#aa0000', fontWeight: '500', fontSize: '25px' }} id="installmentprice">66,976</p>
                         <p style={{ color: '#aa0000', fontWeight: '500', fontSize: '25px' }}>บาท</p>
 
                         <p>ค่าใช้จ่าย ณ วันรับ</p>
-                        <p id="firstdayprice">562,500</p>
+                        <p id="firstdayprice">568,750</p>
                         <p>บาท</p>
                     </div>
                     <div className="pop1_cal_sub">
