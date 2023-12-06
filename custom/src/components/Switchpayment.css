@@ -1,0 +1,34 @@
+.switchpayment {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+    border-bottom: #aaaaaa solid 1px;
+}
+
+.switchpayment-button-mail {
+    width: 80%;
+    background: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    border-radius: 4px;
+    margin: 1vh 0 0;
+    cursor: pointer;
+}
+
+
+.switchpayment-button-pay {
+    width: 80%;
+    background: #aa0000;
+    color: #ffffff;
+    display: none;
+    justify-content: center;
+    padding: 5px 0;
+    border-radius: 4px;
+    margin: 1vh 0;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.costlabel {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 35vw;
+    padding: 1% 10%;
+    transform: translate(-50%, 0);
+    background: #eeeeee;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #444444;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.costlabel:hover {
+    padding: 1% 10% 3%;
+}
+
+.costlabel h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 5px;
+}
+
+.costlabel-up {
+    height: 2.5vw;
+    width: 2.5vw;
+    background: #ffffff;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    position: absolute;
+    right: 5%;
+    box-shadow: 0 1px 8px 2px #00000044;
+}
+
+@media (max-width: 1000px) {
+    .costlabel {
+        display: flex;
+        position: fixed;
+        bottom: 25px;
+        left: 5%;
+        width: 90%;
+        padding: 3% 0%;
+        transform: translate(0, 0);
+        background: #aa0000;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        color: #ffffff;
+        transition: all 0.3s;
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    .costlabel h3 {
+        font-size: 4vw;
+        font-weight: 400;
+        margin: 0 5px;
+    }
+
+    .costlabel:hover {
+        padding: 3% 0%;
+    }
+}

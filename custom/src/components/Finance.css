@@ -1,0 +1,115 @@
+.finance {
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+.finance-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.finance-top h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.finance h4 {
+    font-size: 15px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+.finance-switch {
+    width: 100%;
+    padding: 1% 0;
+    background: #dddddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 20px 0;
+
+}
+
+.finance-switch-n {
+    width: 48%;
+    padding: 4px 0;
+    background: none;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.finance-switch h3 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #444444;
+}
+
+#finance-switch-1 {
+    background: #ffffff;
+    box-shadow: 0px 1px 4px 2px #00000022;
+}
+
+.finance-namecost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+
+.finance-namecost h3 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.finance-namecost h4 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #444444;
+    padding: 0;
+    margin: 0;
+}
+.finance-login {
+    font-size: 17px;
+    font-weight: 400;
+    color: #aa0000;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.finance-login:hover {
+    background: #aa0000;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.finance-term {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finance-term h4{
+    margin: 0 0 0 10px;
+}
+.finance-term-n {
+    border: #888888 solid 1px;
+    border-radius: 4px;
+    padding: 0px 15px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+#finance-term-1 {
+    outline: #cc0000 solid 2px;
+}
+.finance-loan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#loan {
+    display: none;
+}

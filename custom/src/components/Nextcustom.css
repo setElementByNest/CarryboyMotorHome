@@ -1,0 +1,47 @@
+.nextcustom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0 40vh;
+}
+
+.nextcustom h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.nextcustom h4 {
+    font-size: 15px;
+    color: #888888;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nextcustom-button {
+    width: 50%;
+    background: #aa0000;
+    border-radius: 4px;
+    padding: 2%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    .nextcustom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 0 25vh;
+    }
+}

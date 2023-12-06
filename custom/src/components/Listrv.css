@@ -1,0 +1,46 @@
+.listrv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    color: #444444;
+    margin: 0;
+}
+
+.listrv-n {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto 120px;
+    padding: 0 0 5px;
+}
+
+.listrv-n h3 {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+}
+.listrv-n h4 {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.listrv-total {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    padding: 15px 0 15px;
+    margin: 0 0 15px 0;
+    border-bottom: #aaaaaa solid 1px;
+}
+
+.listrv-total h3 {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+.listrv-total h4 {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: right;
+}

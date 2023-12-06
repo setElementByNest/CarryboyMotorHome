@@ -1,0 +1,61 @@
+.formmail {
+    width: 100%;
+    padding: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formmail input {
+    width: 96%;
+    padding: 2% 2%;
+    background: #eeeeee;
+    border: #ddddddaa solid 1px;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    color: #444444;
+    font-size: 16px;
+    font-weight: 400;
+}
+.formmail input:focus {
+    outline: none;
+}
+
+.formmail h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    padding: 2px 0;
+    width: 100%;
+}
+
+.formmail-button {
+    background: #aa0000;
+    width: 100%;
+    padding: 7px 0;
+    border-radius: 4px;
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.formmail h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #aaaaaa;
+    padding: 2px 0;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .formmail {
+        width: 100%;
+        padding: 0 0 10vh 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
