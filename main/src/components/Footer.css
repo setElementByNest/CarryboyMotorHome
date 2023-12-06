@@ -160,7 +160,7 @@
 .foot_1B {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     color: #222222;
     width: 500px;
     height: 100%;
@@ -204,6 +204,22 @@
     width: 150px;
     margin: 10px 0;
     cursor: pointer;
+    transition: all 0.3s;
+}
+
+.qrline_img:hover {
+    scale: 0.9;
+}
+.addfriend {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    background: #222222;
+    width: 150px;
+    text-align: center;
+    padding: 2px 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 @media (max-width:1100px) {
     .costomer_1 h2 {
@@ -245,5 +261,16 @@
         width: 100px;
         height: 100px;
         margin: 10px 0;
+    }
+    .addfriend {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 3vw;
+        background: #222222;
+        width: 100px;
+        text-align: center;
+        padding: 5px 0;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
     }
 }

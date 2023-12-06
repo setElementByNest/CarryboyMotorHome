@@ -28,22 +28,32 @@
 }
 
 .bothcar-img-toyota {
-    height: 30vw;
+    height: 23vw;
     object-fit: contain;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 30%;
     transform: translate(-50%, -50%);
     transition: all 0.5s;
     z-index: 0;
 }
 
-.bothcar-img-mitsubishi {
-    height: 38vw;
+.bothcar-img-champ {
+    height: 26vw;
     object-fit: contain;
     position: absolute;
-    top: 49%;
-    left: 62%;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    transition: all 0.5s;
+    z-index: 0;
+}
+.bothcar-img-mitsubishi {
+    height: 31vw;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 70%;
     transform: translate(-50%, -40%);
     transition: all 0.5s;
     z-index: 0;
@@ -92,40 +102,49 @@
 
 @media (max-width:1100px){
     .bothcar {
-        height: 40vh;
+        height: 30vh;
     }
     .bothcar-menu {
         padding-top: 25px;
     }
     .bothcar-menu h3 {
-        font-size: 4vw;
+        font-size: 3vw;
         font-weight: 500;
-        padding: 5px 10px;
+        padding: 5px 5px;
     }
     .bothcar-detail {
         position: absolute;
-        left: 15%;
+        left: 12%;
         top: 40%;
         transform: translate(-50%, 0);
         opacity: 0;
         transition: all 0.5s;
-        scale: 1.5;
+        scale: 1.2;
     }
     .bothcar-img-toyota {
-        height: 40vw;
+        height: 30vw;
         object-fit: contain;
         position: absolute;
         top: 55%;
-        left: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        transition: all 0.5s;
+    }
+    .bothcar-img-champ {
+        height: 34vw;
+        object-fit: contain;
+        position: absolute;
+        top: 58%;
+        left: 50%;
         transform: translate(-50%, -50%);
         transition: all 0.5s;
     }
     .bothcar-img-mitsubishi {
-        height: 50vw;
+        height: 39vw;
         object-fit: contain;
         position: absolute;
-        top: 55%;
-        left: 65%;
+        top: 54%;
+        left: 70%;
         transform: translate(-50%, -40%);
         transition: all 0.5s;
     }

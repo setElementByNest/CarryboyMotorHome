@@ -61,6 +61,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className="foot_1B">
+                            <a href="https://line.me/R/ti/p/%40127eomim" target="_blank" className="addfriend">คลิ๊ก - เพิ่มเพื่อน</a>
                             <img src="/img_index/M_127eomim_GW.png" alt="" className="qrline_img" onClick={qimg_click} />
                         </div>
                     </div>

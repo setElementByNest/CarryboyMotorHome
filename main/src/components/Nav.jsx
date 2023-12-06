@@ -15,7 +15,7 @@ function Nav() {
                 <div className="list_desktop">
                     <a title="Home" href='https://carryboymotorhome.com/'>Overview</a>
                     <a title="Video" href='https://carryboymotorhome.com/videopage.html'>Video Guide</a>
-                    <a title="Build your RV" href='https://carryboymotorhome.com/build-rv/'>Build your RV</a>
+                    <a title="Build your RV" href='https://carryboymotorhome.com/buildrv.html'>Build your RV</a>
                     <a title="gallery" href='https://carryboymotorhome.com/gallery.html'>Gallery</a>
                     <a title="Contact" href='https://carryboymotorhome.com/contact.html'>Contact</a>
                 </div>
@@ -39,7 +39,7 @@ function Nav() {
             <div className='navmobile' id='navmobile'>
                 <a href='https://carryboymotorhome.com/' >Overview</a>
                 <a href='https://carryboymotorhome.com/videopage.html'>Video Guide</a>
-                <a href='https://carryboymotorhome.com/build-rv/' >Build your RV</a>
+                <a href='https://carryboymotorhome.com/buildrv.html' >Build your RV</a>
                 <a href='https://carryboymotorhome.com/gallery.html'>Gallery</a>
                 <a href='https://carryboymotorhome.com/contact.html'>Contact</a>
             </div>
