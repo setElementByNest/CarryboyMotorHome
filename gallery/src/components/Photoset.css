@@ -3,6 +3,8 @@
     display: flex;
     flex-wrap: wrap;
     overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
 }
 .pht {
     height: 60vh;
