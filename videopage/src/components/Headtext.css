@@ -1,9 +1,9 @@
 .Headtext {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
     line-height: 2.5vw;
 }
 

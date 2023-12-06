@@ -1,0 +1,28 @@
+.switch {
+    display: flex;
+    justify-content: center;
+}
+
+.switch-choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    background: #0978f8;
+    border-radius: 4px;
+    margin: 3vh 5px;
+    transition: all 0.1s;
+    cursor: pointer;
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.s1 {
+    opacity: 0.4;
+    background: #4b5158;
+}
+
+
+.s2:hover {
+    background: #39b64e;
+}

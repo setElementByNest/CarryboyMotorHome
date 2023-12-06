@@ -51,7 +51,7 @@ function Contents() {
 
     return (
         <div className="Contents">
-            <div className="c1">
+            <div className="c1" style={{display: 'none'}}>
                 <div className="chead">รีวิว และรถบ้านของลูกค้า</div>
                 <div className="videogroup">
                     {topicname_1.map((topicname, index) => (

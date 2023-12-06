@@ -18,6 +18,7 @@ nav {
     justify-content: space-between;
     padding: 10px 5%;
     background: #eeeeeedd;
+    box-shadow: 0 4px 14px 4px #00000044;
 }
 
 .list_desktop {
@@ -29,19 +30,15 @@ nav a {
     color: #000000;
     margin: 0 20px;
     background: none;
-    height: 80%;
+    width: fit-content;
+    height: 75%;
     text-decoration: none;
     cursor: pointer;
-    list-style-type: none;
-}
-nav a:hover {
-    color: #000000;
-    text-shadow: 0px 5px 10px #33ff00;
 }
 
 nav a:after {
     transition: all ease .2s;
-    background: #008006;
+    background: linear-gradient(to right, #660000, #aa0000);
     content: "";
     display: block;
     height: 3px;
@@ -50,6 +47,10 @@ nav a:after {
 
 nav a:hover:after {
     width: 100%;
+}
+
+nav a:hover {
+    text-shadow: 0px 5px 10px #aa000066;
 }
 
 .nav-open,
