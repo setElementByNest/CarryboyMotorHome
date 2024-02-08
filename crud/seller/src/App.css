@@ -1,0 +1,46 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: #4400aa;
+  border: none;
+  padding: 10px 50px ;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #dd0044;
+}
+
+.app-page {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 100px 0 0 0;
+  position: relative;
+}
+
+.app-content-1 {
+  background: #ffffff;
+  width: calc(100% - 350px);
+  border-radius: 10px;
+  padding: 50px 0;
+  margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#page-customer {
+  display: none;
+}
+#page-edit {
+  display: none;
+}

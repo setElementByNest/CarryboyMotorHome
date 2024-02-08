@@ -1,0 +1,44 @@
+.searchID {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.searchID-content {
+    width: 90%;
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+}
+
+.searchID-content input {
+    width: 250px;
+    font-size: 20px;
+    display: flex;
+    padding: 5px 10px;
+    margin: 0 15px;
+    border: none;
+    border-bottom: #1990ff solid 1px;
+    background: #f0f2f5;
+    outline: none;
+    color: #1990ff;
+}
+
+.searchID-content input:focus {
+    border-bottom: #1990ff solid 2px;
+}
+
+.searchID-editBT {
+    font-size: 16px;
+    display: flex;
+    padding: 9px 10px;
+    background: #1990ff;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.searchID-editBT:hover {
+    background: #001529;
+}

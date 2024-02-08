@@ -1,0 +1,27 @@
+.topbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.topbar-content {
+    background: #ffffff;
+    height: 50px;
+    width: calc(100% - 300px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar-content i {
+    margin: 0 5% 0 20px;
+    cursor: pointer;
+}
+
+.topbar-user {
+    display: flex;
+    width: 200px;
+}

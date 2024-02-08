@@ -1,0 +1,30 @@
+.pageEdit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pageEdit-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pageEdit-content input {
+    width: 180px;
+    font-size: 14px;
+    display: flex;
+    padding: 2px 10px;
+    margin: 0 0 1px;
+    border: none;
+    border-bottom: #1990ff solid 1px;
+    background: #f0f2f5;
+    outline: none;
+    color: #1990ff;
+}
+
+.pageEdit-content input:focus {
+    border-bottom: #aa0000 solid 2px;
+    margin: 0;
+    color: #aa0000;
+}
