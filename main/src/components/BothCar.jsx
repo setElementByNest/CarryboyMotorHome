@@ -14,6 +14,9 @@ function selectmenu(n) {
       document.getElementById('bothcar-img-toyota').style.transform = 'translate(-50%, -50%)';
       document.getElementById('bothcar-img-mitsubishi').style.transform = 'translate(-50%, -40%)';
       document.getElementById('bothcar-img-champ').style.transform = 'translate(-50%, -40%)';
+      if(screen.width < 1100){
+        document.getElementById('bothcar-img-champ').style.transform = 'translate(-50%, -50%)';
+      }
       document.getElementById('bothcar-detail-toyota').style.transform = 'translate(-50%, 0)';
       document.getElementById('bothcar-detail-toyota').style.opacity = '0';
       document.getElementById('bothcar-detail-mitsubishi').style.transform = 'translate(-50%, 0)';
@@ -30,6 +33,9 @@ function selectmenu(n) {
       document.getElementById('bothcar-img-toyota').style.scale = '1.4';
       document.getElementById('bothcar-img-mitsubishi').style.transform = 'translate(400%, -40%)';
       document.getElementById('bothcar-img-champ').style.transform = 'translate(300%, -40%)';
+      if(screen.width < 1100){
+        document.getElementById('bothcar-img-champ').style.transform = 'translate(300%, -50%)';
+      }
       document.getElementById('bothcar-detail-toyota').style.transform = 'translate(0, 0)';
       document.getElementById('bothcar-detail-toyota').style.opacity = '1';
       document.getElementById('bothcar-detail-mitsubishi').style.transform = 'translate(-50%, 0)';
@@ -46,6 +52,9 @@ function selectmenu(n) {
       document.getElementById('bothcar-img-mitsubishi').style.scale = '1.1';
       document.getElementById('bothcar-img-mitsubishi').style.transform = 'translate(-60%, -35%)';
       document.getElementById('bothcar-img-champ').style.transform = 'translate(300%, -40%)';
+      if(screen.width < 1100){
+        document.getElementById('bothcar-img-champ').style.transform = 'translate(300%, -50%)';
+      }
       document.getElementById('bothcar-detail-toyota').style.transform = 'translate(-50%, 0)';
       document.getElementById('bothcar-detail-toyota').style.opacity = '0';
       document.getElementById('bothcar-detail-mitsubishi').style.transform = 'translate(0, 0)';
@@ -62,6 +71,9 @@ function selectmenu(n) {
       document.getElementById('bothcar-img-mitsubishi').style.transform = 'translate(400%, -50%)';
       document.getElementById('bothcar-img-champ').style.scale = '1.25';
       document.getElementById('bothcar-img-champ').style.transform = 'translate(-5%, -25%)';
+      if(screen.width < 1100){
+        document.getElementById('bothcar-img-champ').style.transform = 'translate(-5%, -30%)';
+      }
       document.getElementById('bothcar-detail-toyota').style.transform = 'translate(-50%, 0)';
       document.getElementById('bothcar-detail-toyota').style.opacity = '0';
       document.getElementById('bothcar-detail-mitsubishi').style.transform = 'translate(-50%, 0)';

@@ -47,8 +47,7 @@
 .dimension-select-text {
     padding: 5px 10px;
     border: #cccccc solid 2px;
-    width: 7vw;
-    margin: 0 10px 0 0;
+    margin: 0 10px 10px 0;
     border-radius: 6px;
     outline: #aaaaaa00 solid 2px;
     cursor: pointer;
@@ -113,7 +112,7 @@
     }
     
     .dimension-select h3 {
-        padding: 15px 0;
+        padding: 5px 0;
         font-size: 3vw;
         font-weight: 300;
         text-indent: 20px;
