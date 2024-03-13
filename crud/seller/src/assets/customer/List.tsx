@@ -5,6 +5,7 @@ interface Customer {
     lastname: string;
     phone: string;
     email: string;
+    status: string;
 }
 
 interface SearchProps {
@@ -21,13 +22,15 @@ function List({ datafilter, showdata }: SearchProps) {
                         <div>{item.id}</div>
                         <div>{item.name + " " + item.lastname}</div>
                         <div>{item.phone}</div>
-                        <div>{item.email}</div>
-                        <div>Status</div>
-                        <div className="list-bt" onClick={() => {
+                        <div>{item.status}</div>
+                        <div className="button button-blue" onClick={() => {
                             const detailID = document.getElementById('detail') as HTMLElement;
                             detailID.style.display = 'flex';
                             showdata(item.id);
-                        }}>Detail</div>
+                        }} style={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                        }}><i className="material-icons">&#xe24d;</i>Detail</div>
                     </div>
                 )
             })}

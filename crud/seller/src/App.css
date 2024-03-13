@@ -8,7 +8,7 @@
 button {
   background: #4400aa;
   border: none;
-  padding: 10px 50px ;
+  padding: 10px 50px;
   color: #fafafa;
   cursor: pointer;
 }
@@ -22,7 +22,7 @@ button:hover {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-  margin: 100px 0 0 0;
+  margin: 75px 0 0 0;
   position: relative;
 }
 
@@ -31,16 +31,80 @@ button:hover {
   width: calc(100% - 350px);
   border-radius: 10px;
   padding: 50px 0;
-  margin: 0 25px;
+  margin: 0 25px 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  /* height: 65vh; */
+  height: calc(100vh - 200px);
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 #page-customer {
   display: none;
 }
+
 #page-edit {
   display: none;
+}
+
+#page-pay {
+  display: none;
+}
+
+#page-print {
+  display: none;
+}
+
+.button {
+  padding: 10px 25px 10px 20px;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 400;
+  margin: 0 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.button:hover {
+  filter: brightness(0.8);
+}
+
+.button-darkblue {
+  background: #063866;
+}
+
+.button-blue {
+  background: #1990ff;
+}
+
+.button i {
+  display: flex;
+  margin: 0 10px 0 0;
+  font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+
+  .app-content-1 {
+    background: #ffffff;
+    width: calc(100% - 50px);
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: 0 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* height: 65vh; */
+    height: calc(100vh - 140px);
+    overflow-y: scroll;
+  }
 }

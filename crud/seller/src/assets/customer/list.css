@@ -8,10 +8,12 @@
 }
 
 .list-content {
-    width: 800px;
+    width: 90%;
+    max-width: 1000px;
     display: grid;
-    grid-template-columns: 15% 20% 15% 30% 10% 10%;
-    border-bottom: #1990ff solid 1px;
+    grid-template-columns: 20% 30% 20% 15% 15%;
+    align-items: center;
+    border-bottom: #1990ff44 solid 1px;
     padding: 5px 0;
     margin: 0 5%;
 }
@@ -31,4 +33,30 @@
 
 .list-bt:hover {
     background: #001529;
+}
+
+@media (max-width: 1000px) {
+    .list {
+        width: 90%;
+        overflow-x: scroll;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
+    .list-content {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: #1990ff44 solid 1px;
+        padding: 5px 0;
+        margin: 0 5%;
+        font-size: 20px;
+        & .button {
+            margin: 10px 0 5px;
+            width: 80%;
+        }
+    }
 }

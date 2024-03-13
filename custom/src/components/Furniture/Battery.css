@@ -1,0 +1,50 @@
+.battery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0;
+}
+
+.battery h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.battery-list-n {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    border: #eeeeee solid 1px;
+    padding: 2% 4%;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.battery-list-n-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.battery-list-n-top h3 {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.battery-list-n-sub {
+    width: 100%;
+}
+
+
+.battery-list-n-sub {
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+#battery-1 {
+    outline: #aa0000 solid 2px;
+}

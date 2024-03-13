@@ -2,14 +2,14 @@ import React from 'react'
 import './Popdiscount.css'
 
 
-function Popdiscount({ calcost, numtostr, costtern, dataSeller }) {
+function Popdiscount({ calcost, numtostr, costtern }) {
     function login2cal() {
         let sellername = document.getElementById('sellername').value;
         let sellerpassword = document.getElementById('sellerpassword').value;
         //let n_dataSeller = dataSeller.length;
         //for (let i = 1; i <= n_dataSeller; i++) {
             //if (sellername == dataSeller[i - 1].name & sellerpassword == dataSeller[i - 1].pass) {
-            if (sellername == 'user' & sellerpassword == '1234') {
+            if (sellername == 'nest' & sellerpassword == '1234') {
                 document.getElementById('popdiscount-login').style.display = 'none';
                 document.getElementById('popdiscount-cal').style.display = 'flex';
                 sessionStorage.setItem('discounttype', '%');

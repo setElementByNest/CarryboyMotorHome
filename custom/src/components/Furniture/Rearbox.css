@@ -1,0 +1,55 @@
+.rearbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0;
+}
+.rearbox h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 25px 0;
+}
+
+.rearbox-group {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rearbox-group-n {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.rearbox-group-1 {
+    width: 50px;
+    height: 50px;
+    background: #000000;
+    border-radius: 50px;
+    border: #cccccc solid 2px;
+}
+
+.rearbox-group-2 {
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 50px;
+    border: #cccccc solid 2px;
+}
+
+.rearbox h3{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+#rearbox-1 {
+    outline: #aa0000 solid 2px;
+}

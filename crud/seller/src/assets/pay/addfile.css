@@ -1,0 +1,7 @@
+.addfile {
+    padding: 50px 0;
+}
+
+.addfile button:hover {
+    background: none;
+}

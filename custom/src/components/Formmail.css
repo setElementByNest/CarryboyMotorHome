@@ -16,6 +16,7 @@
     color: #444444;
     font-size: 16px;
     font-weight: 400;
+    transition: all 0.1s;
 }
 .formmail input:focus {
     outline: none;
@@ -38,8 +39,13 @@
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    margin: 30px 0;
+    margin: 30px 0 10vh;
     cursor: pointer;
+    transition: all 0.2s;
+}
+
+.formmail-button:hover {
+    background: #000000;
 }
 
 .formmail h4 {

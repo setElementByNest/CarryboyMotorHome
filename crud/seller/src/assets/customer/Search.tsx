@@ -15,6 +15,7 @@ function Search({ dataSearch, setSearch, datafilted, setTypeSearch, typeSearch }
         <div className='search'>
             <div className="search-content">
                 <input type="text" className='search-input' id='search-input' onFocus={(e) => e.preventDefault()} onChange={(e) => {
+                    e.target.value = e.target.value.toUpperCase();
                     setSearch(e.target.value);
                     datafilted(e.target.value);
                 }} />

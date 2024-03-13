@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .topbar-content i {
     margin: 0 5% 0 20px;
@@ -24,4 +25,24 @@
 .topbar-user {
     display: flex;
     width: 200px;
+    justify-content: flex-end;
+    margin: 0 5% 0 0;
+    cursor: pointer;
+}
+.topbarmobile {
+    opacity: 0;
+}
+
+@media (max-width: 1000px) {
+    .topbar-content {
+        background: #ffffff;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .topbarmobile {
+        opacity: 1;
+    }
 }

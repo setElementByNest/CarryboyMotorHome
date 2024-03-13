@@ -1,0 +1,134 @@
+@media print {
+    :root {
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+    }
+
+    #root {
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+    }
+
+    html {
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        width: 210mm;
+        /* A4 width */
+        height: 257mm;
+        /* A4 height */
+        padding: 50px 10px;
+        overflow: hidden;
+    }
+
+    .A4-brand h3 {
+        font-size: 0.3cm;
+    }
+
+    .A4-head-red h1 {
+        font-size: 1cm;
+    }
+
+    .A4-head-red h2 {
+        font-size: 0.6cm;
+    }
+
+    .A4-head-info h3 {
+        font-size: 0.4cm;
+    }
+
+    .A4-head-info h4 {
+        font-size: 0.25cm;
+    }
+
+    .A4-head-info input {
+        font-size: 0.4cm;
+    }
+
+    .A4-list1 h2 {
+        font-size: 0.6cm;
+    }
+
+    .A4-list1 input {
+        font-size: 0.6cm;
+    }
+
+    .A4-list2 h2 {
+        font-size: 0.5cm;
+    }
+
+    .A4-list2 h3 {
+        font-size: 0.4cm;
+    }
+
+    .A4-list2 td {
+        font-size: 0.4cm;
+    }
+
+    .A4-list2 input {
+        font-size: 0.4cm;
+    }
+
+    .A4-finance-head h3 {
+        font-size: 0.6cm;
+    }
+
+    .A4-finance-list input {
+        font-size: 0.4cm;
+    }
+
+    .A4-finance-list td {
+        font-size: 0.4cm;
+    }
+
+    .A4-finance-type h3 {
+        font-size: 0.5cm;
+    }
+
+    .A4-finance-type input {
+        font-size: 0.5cm;
+    }
+
+    .A4-promise h3 {
+        font-size: 0.35cm;
+    }
+
+    .A4-promise input {
+        font-size: 0.35cm;
+    }
+
+    .A4-signgroup-content h3 {
+        font-size: 0.35cm;
+    }
+
+    .A4-signgroup-content input {
+        font-size: 0.35cm;
+    }
+
+    .A4-signgroup-content {
+        margin: 0.5cm 15px 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .printA4 {
+        scale: 0.5;
+        transform: translate(0, -40%);
+        position: absolute;
+        top: 0;
+    }
+    .printbt {
+        display: flex;
+        margin: 15px 0;
+        position: absolute;
+        bottom: 0;
+    }
+}

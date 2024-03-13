@@ -1,14 +1,14 @@
 import React from "react";
 import './Nav.css'
 
-function Nav() {
+function Nav({ numtostr, allPrice }) {
     function toFt() {
         document.documentElement.scrollTop = document.getElementById('ft').offsetTop - 30;
     }
     return (
         <div>
             <nav>
-                <img src="/img-custom/logo.png" alt="motorhome_logo" height={25} onClick={function () {
+                <img src="/img-custom/logo.png" alt="motorhome_logo" height={25} style={{ cursor: 'pointer' }} onClick={function () {
                     window.location.href = 'https://carryboymotorhome.com/'
                 }} />
 
@@ -34,7 +34,14 @@ function Nav() {
                         document.body.style.overflowY = 'scroll'
                     }} style={{ fontSize: '20px' }}></a>
                 </div>
-                <div className="nav-cost" id="nav-cost">2,003,000 THB</div>
+                <div className="nav-cost" id="nav-cost"><i style={{
+                    margin: '0 10px 0 0',
+                    fontSize: '13px',
+                    fontWeight: '300',
+                    display: screen.width < 1100 ? 'flex' : 'none'
+                }}>Total price</i>{
+                    numtostr(allPrice.model + allPrice.laminate + allPrice.reartype + allPrice.aircon + allPrice.battery + allPrice.powergen + allPrice.rearbox + allPrice.kitchen + allPrice.suspension)
+                }</div>
             </nav>
 
             <div className='navmobile' id='navmobile'>

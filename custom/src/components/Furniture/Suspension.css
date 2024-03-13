@@ -1,0 +1,55 @@
+.suspension {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0;
+}
+
+.suspension h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.suspension-list-n {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    border: #eeeeee solid 1px;
+    padding: 2% 4%;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.suspension-list-n-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.suspension-list-n-top h3 {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
+.suspension-list-n-sub {
+    width: 95%;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 10px 0 0 5%;
+}
+
+#suspension-1 {
+    outline: #aa0000 solid 2px;
+}
+
+
+#suspension-1-sub {
+    display: block;
+}
+#suspension-2-sub {
+    display: none;
+}

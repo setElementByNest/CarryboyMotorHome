@@ -22,6 +22,8 @@
     border: none;
     border-bottom: #1990ff solid 1px;
     padding: 0 10px;
+    border-radius: 4px;
+    margin: 0 10px 0 0;
 }
 
 .search-input:focus {
@@ -37,7 +39,8 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 4px;
 }
 .search-i:hover {
-    background: #001529;
+    filter: brightness(0.8);
 }

@@ -15,8 +15,6 @@ nav {
 .list_desktop {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    width: 90%;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -144,6 +142,18 @@ nav a:hover {
         opacity: 1;
     }
     .nav-cost {
-        display: none;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background: #00000088;
+        color: #ffffff;
+        padding: 1% 4%;
+        font-size: 16px;
+        font-weight: 400;
+        width: 92%;
+        backdrop-filter: blur(3px);
+        align-items: flex-end;
     }
 }

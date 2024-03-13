@@ -1,0 +1,136 @@
+.printA4 {
+    width: 575px;
+    height: 742px;
+    border: #00000044 solid 1px;
+    border-radius: 4px;
+    padding: 50px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    position: relative;
+    background: #ffffff;
+}
+
+.A4-topgroup {
+    display: flex;
+}
+
+.A4-brand img {
+    width: 80%;
+    margin: 0 0 5% 0;
+    object-fit: contain;
+}
+
+.A4-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+
+.A4-brand h3 {
+    font-size: 60%;
+    font-weight: 400
+}
+
+.A4-head {
+    width: 55%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(0, -10px);
+}
+
+.A4-head-red {
+    color: #cc0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.A4-head-red h1 {
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.A4-head-red h2 {
+    font-size: 80%;
+    font-weight: 500;
+    transform: translate(0, -30%);
+    margin: 0 0 5px;
+}
+
+.A4-head-info {
+    width: 100%;
+}
+
+.A4-head-info div {
+    display: grid;
+    width: 100%;
+    margin: 0;
+}
+
+.A4-head-info h3 {
+    font-size: 60%;
+    font-weight: 400;
+    text-wrap: nowrap;
+}
+
+.A4-head-info h4 {
+    font-size: 50%;
+    font-weight: 400;
+
+}
+
+.A4-head-info input {
+    font-size: 80%;
+    width: 100%;
+    margin: 0 0 1px 5px;
+    background: none;
+    border: none;
+    border-bottom: #000000 dotted 1px;
+    color: #000000;
+    outline: none;
+    padding: 0;
+    transform: translate(0, -30%);
+}
+
+.A4-head-info input:focus {
+    margin: 0 0 0px 5px;
+    border-bottom: #1990ff solid 2px;
+}
+
+.A4-id {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 25%;
+    background: #cc0000;
+    padding: 0 10px;
+}
+
+.A4-id h3 {
+    font-size: 80%;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.A4-id input {
+    font-size: 100%;
+    width: 70%;
+    margin: 0 0 1px 5px;
+    background: none;
+    border: none;
+    border-bottom: #000000 dotted 1px;
+    color: #ffffff;
+    outline: none;
+    padding: 0;
+    font-weight: 400;
+}
+
+.A4-id input:focus {
+    margin: 0 0 0px 5px;
+    border-bottom: #1990ff solid 2px;
+}

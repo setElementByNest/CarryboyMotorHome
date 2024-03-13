@@ -1,0 +1,163 @@
+.content {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto 400px;
+}
+
+.content-img {
+    height: 100%;
+    width: 100%;
+}
+
+.content-data {
+    height: 100vh;
+    width: 100%;
+    display: block;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+.content-custom {
+    height: 100vh;
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.content-custom h1 {
+    padding: 15vh 0 0 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.content-custom::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#content-img {
+    background: url('/img-custom/Vehicle_rv_toyota_e_01.jpg') center center no-repeat;
+    background-size: cover;
+
+}
+
+.content-payment {
+    height: 100vh;
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    position: absolute;
+    top: 100%;
+    background: #ffffff;
+    left: 0;
+    transition: all 0.5s;
+}
+
+.payment-back {
+    padding: 10vh 0 0 0;
+    text-decoration: none;
+    color: #888888;
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.payment-back:hover {
+    color: #aa0000;
+}
+
+.content-payment h1 {
+    padding: 1vh 0 10px 0;
+    font-size: 40px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    border-bottom: #aaaaaa solid 1px;
+}
+
+.content-payment::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+@media (max-width: 1000px) {
+    .content {
+        position: relative;
+        top: 50px;
+        height: calc(100vh - 50px);
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+    }
+
+    .content-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .content-data {
+        height: 100%;
+        width: 100%;
+        display: block;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+    }
+    .content-custom {
+        height: 100%;
+        width: 90%;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+    .content-custom h1 {
+        padding: 5vh 0 0 0;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .content-payment {
+        height: 100%;
+        width: 90%;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+    .payment-back {
+        padding: 25px 0 0 0;
+        text-decoration: none;
+        color: #888888;
+        text-align: left;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s;
+    }
+}

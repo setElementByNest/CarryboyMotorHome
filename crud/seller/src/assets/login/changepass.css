@@ -1,0 +1,31 @@
+.changepass {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000088;
+    z-index: 2;
+}
+
+.changepass-content {
+    background: #ffffff;
+    border: #00000044 solid 1px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px 50px 30px;
+}
+
+.changepass-content h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.changepass-content h4 {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 10px 0 0px;
+}

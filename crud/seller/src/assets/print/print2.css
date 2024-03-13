@@ -1,0 +1,155 @@
+.A4-list1 {
+    background: #cc0000;
+    border-radius: 6px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 2px 5%;
+}
+
+.A4-list1 h2 {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0 5px 0 0;
+    text-wrap: nowrap;
+}
+
+.A4-list1 input {
+    font-size: 15px;
+    width: 50%;
+    margin: 0 15px 1px 5px;
+    background: #ffffff;
+    border: none;
+    border-bottom: #000000 dotted 1px;
+    color: #000000;
+    outline: none;
+    padding: 2px 10px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.A4-list1 input:focus {
+    margin: 0 15px 0px 5px;
+    border-bottom: #1990ff solid 2px;
+}
+
+.A4-list2 {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2%;
+}
+
+.A4-list2 h2 {
+    font-size: 16px;
+    margin: 5px 0 2px;
+    font-weight: 400;
+}
+
+.A4-list2 h3 {
+    font-size: 12px;
+    margin: 10px 0 10px 15px;
+    font-weight: 400;
+    color: #00000088;
+    text-decoration: underline;
+}
+.A4-list2 td {
+    font-size: 70%;
+    font-weight: 300;
+}
+
+.A4-list2 input {
+    font-size: 100%;
+    width: 80%;
+    margin: 0 15px 1px 5px;
+    background: #ffffff;
+    border: none;
+    border-bottom: #000000 dotted 1px;
+    color: #000000;
+    outline: none;
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+.A4-list2 input:focus {
+    margin: 0 15px 0px 5px;
+    border-bottom: #1990ff solid 2px;
+}
+
+.A4-finance {
+    width: 100%;
+}
+
+.A4-finance-head {
+    background: #000000;
+    border-radius: 6px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 1% 5%;
+    margin: 10px 0;
+}
+.A4-finance-head h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.A4-finance-list {
+    width: 96%;
+    margin: 0 2%;
+    display: flex;
+}
+.A4-finance-list input {
+    font-size: 100%;
+    width: 80%;
+    margin: 0 15px 1px 5px;
+    background: #ffffff;
+    border: none;
+    border-bottom: #000000 dotted 1px;
+    color: #000000;
+    outline: none;
+    padding: 0 10px;
+    font-weight: 400;
+    text-align: end;
+}
+
+.A4-finance-list input:focus {
+    margin: 0 15px 0px 5px;
+    border-bottom: #1990ff solid 2px;
+}
+.A4-finance-list td {
+    font-size: 70%;
+    font-weight: 300;
+    text-wrap: nowrap;
+}
+
+.A4-finance-list-1 {
+    width: 98%;
+    margin: 0 2% 0 0;
+}
+.A4-finance-list-2 {
+    width: 98%;
+    margin: 0 0 0 2%;
+}
+.A4-finance-type {
+    width: 96%;
+    margin: 0 2%;
+    display: flex;
+}
+
+.A4-finance-type h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.A4-finance-type input {
+    font-size: 100%;
+    width: 25%;
+    background: #ffffff;
+    border: none;
+    color: #000000;
+    outline: none;
+    padding: 0 10px;
+    font-weight: 400;
+    text-align: start;
+}
