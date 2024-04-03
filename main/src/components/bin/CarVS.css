@@ -1,0 +1,126 @@
+.seen2 {
+    display: grid;
+    grid-template-columns: 100%;
+    height: 50vw;
+}
+
+.zone1 {
+    width: 100vw;
+    height: 50vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    transition: all 0.5s;
+    cursor: crosshair;
+}
+
+.car1,
+.car2 {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.car1 {
+    width: 100%;
+    height: 100%;
+    background: url('/img_index/part2_1.jpg') no-repeat;
+    background-size: cover;
+    transition: all .2s;
+    background-position: top left;
+    align-items: flex-end;
+}
+
+.car2 {
+    width: 100%;
+    height: 100%;
+    background: url('/img_index/part2_2.jpg') no-repeat;
+    background-size: cover;
+    transition: all .2s;
+    background-position: top right;
+    align-items: flex-start;
+    text-shadow: 0 0 10px 10px #000000;
+}
+
+.car1:hover {
+    background: url('/img_index/part2_1_2.jpg') no-repeat;
+    background-size: cover;
+    transition: all .5s;
+}
+
+.car2:hover {
+    background: url('/img_index/part2_2_2.jpg') no-repeat;
+    background-size: cover;
+    transition: all .5s;
+}
+
+@media (max-width:100vh) {
+    .seen2 {
+        height: 100%;
+    }
+
+    .zone1 {
+        width: 100vw;
+        height: 200vw;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        background-color: white;
+        transition: all 0.5s;
+        cursor: crosshair;
+    }
+
+    .car1 {
+        background: url('/img_index/part2_1_2.jpg') no-repeat;
+        background-size: cover;
+        background-position: top left;
+    }
+
+    .car1_detail {
+        background: #00000088;
+        height: 100%;
+        padding-left: 5%;
+        color: #ffffff;
+        position: relative;
+        right: -100%;
+        transition: all 0.2s;
+    }
+
+    .car2 {
+        background: url('/img_index/part2_2_2.jpg') no-repeat;
+        background-size: cover;
+        background-position: top right;
+    }
+
+    .car2_detail {
+        background: #00000088;
+        height: 100%;
+        padding-right: 5%;
+        color: #ffffff;
+        position: relative;
+        left: -50%;
+        transition: all 0.2s;
+    }
+
+    .car1 h2 {
+        padding: 5vh 5vw 0 0;
+        font-size: 3vw;
+    }
+
+    .car1 p {
+        opacity: 1;
+        padding: 1vh 5vw 0 0;
+        font-size: 2.5vw;
+    }
+
+    .car2 h2 {
+        padding: 5vh 0 0 8vw;
+        font-size: 3vw;
+    }
+
+    .car2 p {
+        opacity: 1;
+        padding: 1vh 0 0 8vw;
+        font-size: 2.5vw;
+    }
+}

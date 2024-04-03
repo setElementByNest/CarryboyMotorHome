@@ -1,0 +1,418 @@
+{
+    "interiorfront" : [
+        {
+            "air" : {
+                "npage" : 2,
+                "page01" : {
+                    "head" : "Air-Condition",
+                    "detail" : "เครื่องปรับอากาศมาตรฐานของรถบ้านแคร์รี่บอย",
+                    "img" : "interior/carryboy-motorhome-rv-interior-aircondition-1.jpg"
+                },
+                "page02" : {
+                    "head" : "Air-Condition",
+                    "detail" : "แผงควบคุมการทำงานของเครื่องปรับอากาศ",
+                    "img" : "interior/carryboy-motorhome-rv-interior-aircondition-2.jpg"
+                }
+            },
+            "compartment" : {
+                "npage" : 3,
+                "page01" : {
+                    "head" : "ช่องเก็บของในรถ",
+                    "detail" : "ช่องเก็บของเหนือศีรษะ",
+                    "img" : "interior/carryboy-motorhome-rv-interior-compartment1.jpg"
+                },
+                "page02" : {
+                    "head" : "ช่องเก็บของในรถ",
+                    "detail" : "ช่องเก็บของเหนือศีรษะ",
+                    "img" : "interior/carryboy-motorhome-rv-interior-compartment2.jpg"
+                },
+                "page03" : {
+                    "head" : "ช่องเก็บของในรถ",
+                    "detail" : "ช่องเก็บของเหนือศีรษะ",
+                    "img" : "interior/carryboy-motorhome-rv-interior-compartment3.jpg"
+                }
+            },
+            "mirror" : {
+                "npage" : 1,
+                "page01" : {
+                    "head" : "System Control",
+                    "detail" : "ตู้ควบคุม และแสดงผลระบบไฟฟ้าและน้ำ ที่ใช้ในตัวรถบ้าน",
+                    "img" : "interior/carryboy-motorhome-rv-interior-powercontrol.jpg"
+                }
+            },
+            "basin" : {
+                "npage" : 2,
+                "page01" : {
+                    "head" : "อ่างล้างหน้า",
+                    "detail" : "อ่างล้างหน้า ขณะปิดฝา โดยฝามีความแข็งแรง สามารถวางของ เพื่อให้พื้นที่รถบ้านคุณให้คุ้มค่า",
+                    "img" : "interior/carryboy-motorhome-rv-interior-basin-close.jpg"
+                },
+                "page02" : {
+                    "head" : "อ่างล้างหน้า",
+                    "detail" : "อ่างล้างหน้า ขณะเปิดฝา ท้อน้ำสามารถพับเก็บและกางออกเพื่อใช้งานได้",
+                    "img" : "interior/carryboy-motorhome-rv-interior-basin-open.jpg"
+                }
+            },
+            "toilet" : {
+                "npage": 4,
+                "page01": {
+                    "head": "ห้องน้ำมุมสูง รูปแบบใหม่ของรถบ้านแครี่บอย",
+                    "detail": "Bathroom of Carryboy motorhome, developed to be more modern, beautiful, and luxurious",
+                    "img": "interior/newToilet/carryboy-motorhome-rv-interior-toilet-4.jpg"
+                },
+                "page02": {
+                    "head": "ฝักบัวอาบน้ำ",
+                    "detail": "Bathroom of Carryboy motorhome, developed to be more modern, beautiful, and luxurious",
+                    "img": "interior/newToilet/carryboy-motorhome-rv-interior-toilet-2.jpg"
+                },
+                "page03": {
+                    "head": "สายฉีดชำระ",
+                    "detail": "Basin separates hot and cold water, adjustable for warm and cool temperatures",
+                    "img": "interior/newToilet/carryboy-motorhome-rv-interior-toilet-3.jpg"
+                },
+                "page04": {
+                    "head": "พื้นห้องน้ำ",
+                    "detail": "Basin separates hot and cold water, adjustable for warm and cool temperatures",
+                    "img": "interior/newToilet/carryboy-motorhome-rv-interior-toilet-5.jpg"
+                }
+            },
+            "wardrobe" : {
+                "npage" : 3,
+                "page01" : {
+                    "head" : "ตู้เสื้อผ้า",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-wardrobe-1.jpg"
+                },
+                "page02" : {
+                    "head" : "ตู้เสื้อผ้า",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-wardrobe-2.jpg"
+                },
+                "page03" : {
+                    "head" : "ตู้เสื้อผ้า",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-wardrobe-3.jpg"
+                }
+            },
+            "accessory" : {
+                "npage" : 1,
+                "page01" : {
+                    "head" : "โทรทัศน์ และเครื่องอบไมโครเวฟ",
+                    "detail" : "อุปกรณ์อำนวยความสะอวก ได้แก่ โทรทัศน์ เครื่องอบไมโครเวฟ และตู้เย็น",
+                    "img" : "interior/carryboy-motorhome-rv-interior-accessory-tv-microwave.jpg"
+                }
+            },
+            "bed" : {
+                "npage" : 3,
+                "page01" : {
+                    "head" : "โซฟาและเตียง แบบที่ 1",
+                    "detail" : "ปรับแบบโซฟาทั้งหมด ประกอบด้วยโซฟาสำหรับนั่ง 3 ตัว และโต๊ะอาหารกลาง ที่สามารถพับเก็บและยืดกางออกได้",
+                    "img" : "interior/carryboy-motorhome-rv-interior-bed-1.jpg"
+                },
+                "page02" : {
+                    "head" : "โซฟาและเตียง แบบที่ 2",
+                    "detail" : "ปรับแบบโซฟาและเตียง ประกอบด้วยโซฟา 1 ตัว และเตียง 1 ตัว โดยที่สามารถพักเก็บโต๊ะอาหารกลางได้ และเลื่อนโซฟาออกเพื่อทำเป็นเตียงที่ยาวขึ้นได้",
+                    "img" : "interior/carryboy-motorhome-rv-interior-bed-2.jpg"
+                },
+                "page03" : {
+                    "head" : "โซฟาและเตียง แบบที่ 3",
+                    "detail" : "ปรับแบบเตียงแบบนั่งทั้งหมด ประกอบด้วยเตียง 1 ตัว โดยที่สามารถพักเก็บโต๊ะอาหารกลางได้ และเลื่อนโซฟาออกเพื่อทำเป็นเตียงที่ยาวขึ้นได้",
+                    "img" : "interior/carryboy-motorhome-rv-interior-bed-3.jpg"
+                }
+            }
+        }
+    ],
+    "interiorbottom" : [
+        {
+            "sky" : {
+                "npage" : 5,
+                "page01" : {
+                    "head" : "Skyview",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-skyview-1.jpg"
+                },
+                "page02" : {
+                    "head" : "Skyview",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-skyview-2.jpg"
+                },
+                "page03" : {
+                    "head" : "Skyview",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-skyview-3.jpg"
+                },
+                "page04" : {
+                    "head" : "Skyview",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-skyview-4.jpg"
+                },
+                "page05" : {
+                    "head" : "Skyview",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-skyview-5.jpg"
+                }
+            },
+            "bedunderdriver" : {
+                "npage" : 3,
+                "page01" : {
+                    "head" : "เตียงนอนชั้นบน เหนือตัวคนขับ",
+                    "detail" : "เตียงที่ถูกเพิ่มเติมขึ้นมา เพื่อรองรับผู้อาศัยได้มากขึ้น และใช้พื้นที่ได้อย่างคุ้มค้าที่สุด",
+                    "img" : "interior/carryboy-motorhome-rv-interior-bedunderdriver.jpg"
+                },
+                "page02" : {
+                    "head" : "ไฟส่องสว่างของเตียงชั้นบน",
+                    "detail" : "ไฟแยกส่วนตัวสำหรับคนที่ใช้พื้นที่เตียงด้านบน",
+                    "img" : "interior/carryboy-motorhome-rv-interior-bedunderdriver-lightforlook.jpg"
+                },
+                "page03" : {
+                    "head" : "ไฟอ่านหนังสือของเตียงชั้นบน",
+                    "detail" : "ไฟแยกส่วนตัวสำหรับคนที่ใช้พื้นที่เตียงด้านบน",
+                    "img" : "interior/carryboy-motorhome-rv-interior-bedunderdriver-lightforread.jpg"
+                }
+            },
+            "curtain" : {
+                "npage" : 2,
+                "page01" : {
+                    "head" : "ม่านระหว่างคนขับกับห้องนอน (มุมมองคนขับ)",
+                    "detail" : "ช่องระหว่างคนขับและห้องนอน สำหรับติดต่อสื่อสารได้ง่าย และยังสามารถรอดผ่านได้",
+                    "img" : "interior/carryboy-motorhome-rv-interior-curtain-frontview.jpg"
+                },
+                "page02" : {
+                    "head" : "ม่านระหว่างคนขับกับห้องนอน (มุมมองผู้โดยสาร)",
+                    "detail" : "ช่องระหว่างคนขับและห้องนอน สำหรับติดต่อสื่อสารได้ง่าย และยังสามารถรอดผ่านได้",
+                    "img" : "interior/carryboy-motorhome-rv-interior-curtain-bottomview.jpg"
+                }
+            },
+            "window" : {
+                "npage" : 3,
+                "page01" : {
+                    "head" : "หน้าต่างด้านข้าง",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-window-side-1.jpg"
+                },
+                "page02" : {
+                    "head" : "หน้าต่างด้านข้าง",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-window-side-2.jpg"
+                },
+                "page03" : {
+                    "head" : "หน้าต่างด้านข้าง",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-window-side-4.jpg"
+                }
+            },
+            "plug" : {
+                "npage" : 1,
+                "page01" : {
+                    "head" : "USB Plug",
+                    "detail" : "เพิ่มความสดวกสบายในการชาร์จ",
+                    "img" : "interior/carryboy-motorhome-rv-interior-plug.jpg"
+                }
+            }
+        }
+    ],
+    "exteriorfront" : [
+        {
+            "sky" : {
+                "npage" : 5,
+                "page01" : {
+                    "head" : "Skyview",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-skyview-1.jpg"
+                },
+                "page02" : {
+                    "head" : "Skyview",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-skyview-2.jpg"
+                },
+                "page03" : {
+                    "head" : "Skyview",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-skyview-3.jpg"
+                },
+                "page04" : {
+                    "head" : "Skyview",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-skyview-4.jpg"
+                },
+                "page05" : {
+                    "head" : "Skyview",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-interior-skyview-5.jpg"
+                }
+            },
+            "window" : {
+                "npage" : 3,
+                "page01" : {
+                    "head" : "หน้าต่างด้านข้าง",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-window-side-1.jpg"
+                },
+                "page02" : {
+                    "head" : "หน้าต่างด้านข้าง",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-window-side-2.jpg"
+                },
+                "page03" : {
+                    "head" : "หน้าต่างด้านข้าง",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-window-side-4.jpg"
+                }
+            },
+            "sewage" : {
+                "npage" : 1,
+                "page01" : {
+                    "head" : "ช่องเก็บถังน้ำเสียง หรือสิ่งปฏิกูล",
+                    "detail" : "ช่องเก็บถังน้ำเสียง หรือสิ่งปฏิกูล",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-sewage.jpg"
+                }
+            },
+            "battery" : {
+                "npage" : 3,
+                "page01" : {
+                    "head" : "ช่องเก็บแบตเตอร์รี่ และระบบไฟฟ้า",
+                    "detail" : "ช่องเก็บแบตเตอร์รี่ และระบบไฟฟ้า",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-battery-1.jpg"
+                },
+                "page02" : {
+                    "head" : "แบตเตอร์รี่ และระบบไฟฟ้า",
+                    "detail" : "แบตเตอร์รี่ และระบบไฟฟ้า",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-battery-2.jpg"
+                },
+                "page03" : {
+                    "head" : "พัดลมระบายอากาศ",
+                    "detail" : "พัดลมระบายอากาศ",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-battery-3.jpg"
+                }
+            }
+        }
+    ],
+    "exteriorbottom" : [
+        {
+            "awning" : {
+                "npage" : 2,
+                "page01" : {
+                    "head" : "Awning",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-awning-1.jpg"
+                },
+                "page02" : {
+                    "head" : "Awning",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-awning.jpg"
+                }
+            },
+            "back" : {
+                "npage" : 1,
+                "page01" : {
+                    "head" : "ที่เก็บจักรยาน",
+                    "detail" : "เป็นพื้นที่เก็บอุปกรณ์เพิ่มเติม ได้แก่ เครื่องกำเนิดไฟฟ้า (Generator) บันไดที่สามารถแขวนมัดจักรยานได้ และกล่องใส่อุปกรณ์ด้านล่าง",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-back.jpg"
+                }
+            },
+            "boxback" : {
+                "npage" : 2,
+                "page01" : {
+                    "head" : "กล่องใส่ของท้ายรถ",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-boxback1.jpg"
+                },
+                "page02" : {
+                    "head" : "กล่องใส่ของท้ายรถ",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-boxback2.jpg"
+                }
+            },
+            "door" : {
+                "npage" : 4,
+                "page01" : {
+                    "head" : "ราวจับประตูด้านนอก",
+                    "detail" : "ราวจับประตูสามารถพับเก็บและกางออกได้ โดยขณะพับเก็บจะต้องดันไปทางขวา ราวจับจะแนบติดกับผิวรถ",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-door-1.jpg"
+                },
+                "page02" : {
+                    "head" : "ราวจับประตูด้านใน",
+                    "detail" : "ราวจับที่มีความแข็งแรง ใช้ค้ำประคองขณะขึ้นลงรถ และยังใช้เพื่อการเปิดปิดประตูรถจากด้านในอีกด้วย",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-door-2.jpg"
+                },
+                "page03" : {
+                    "head" : "กรประตูด้านใน",
+                    "detail" : "เปิดประตูด้วยการดึงกรประตูเข้าหาตัวและดึงลง มีองศาการดึงที่สูงเพื่อความปลอดภัยในการปิดล็อกประตู",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-door-3.jpg"
+                },
+                "page04" : {
+                    "head" : "ถังขยะหลังประตูด้านใน",
+                    "detail" : "ประตูที่มาพร้อมกับถังขยะ เพื่อความสะดวก และใช้พื้นที่ให้คุ้มค่าที่สุด",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-door-4.jpg"
+                }
+            },
+            "exshower" : {
+                "npage" : 1,
+                "page01" : {
+                    "head" : "Exterior Shower",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-waterinout.jpg"
+                }
+            },
+            "step" : {
+                "npage" : 3,
+                "page01" : {
+                    "head" : "บันไดไฟฟา",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-step-1.jpg"
+                },
+                "page02" : {
+                    "head" : "สวิตส์สำหรับ บันไดไฟฟา",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-step-2.jpg"
+                },
+                "page03" : {
+                    "head" : "สวิตส์สำหรับ บันไดไฟฟา",
+                    "detail" : "",
+                    "img" : "interior/carryboy-motorhome-rv-exterior-step-3.jpg"
+                }
+            }
+        }
+    ],
+    "option" : [
+        {
+            "suspension" : {
+                "npage" : 1,
+                "page01" : {
+                    "head" : "ช่วงล่าง - Set B",
+                    "detail" : "Front & Rear tune 2 way 2.5 shock absorber / sub-tank 8 level (AC power), Front & Rear stabilizer arm, Suspension tune-up by AC power, 9-10” shakle, Standard leaf spring",
+                    "img" : "option/carryboy-motorhome-rv-option-suspension.jpg"
+                }
+            },
+            "kitchen" : {
+                "npage" : 2,
+                "page01" : {
+                    "head" : "ช่องเก็บครัวสไลด์",
+                    "detail" : "ครัวสไลด์สามารถพับเก็บและกางออก สะดวกต่อการออกสถานที่ มีเตาแก๊ส พื้นที่ทำอาหาร และอ่างล้างจาน",
+                    "img" : "option/carryboy-motorhome-rv-option-kitchen-1.png"
+                },
+                "page02" : {
+                    "head" : "ช่องเก็บของ (ไม่ติดตั้งครัวสไลด์)",
+                    "detail" : "ช่องนี้สามารถเป็นช่องเก็บของแทนได้ หากไม่ต้องการครัวสไลด์",
+                    "img" : "option/carryboy-motorhome-rv-option-kitchen-0.png"
+                }
+            },
+            "air" : {
+                "npage" : 1,
+                "page01" : {
+                    "head" : "Air-Condition - HARRIER plus",
+                    "detail" : "เครื่องปรับอากาศบนเพดาน",
+                    "img" : "option/carryboy-motorhome-rv-option-air-2.jpg"
+                }
+            },
+            "gen" : {
+                "npage" : 1,
+                "page01" : {
+                    "head" : "Power Generator - Dometic (2,100 Watt)",
+                    "detail" : "",
+                    "img" : "option/carryboy-motorhome-rv-feature-generator.jpg"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,418 @@
+{
+    "interiorfront": [
+        {
+            "air": {
+                "npage": 2,
+                "page01": {
+                    "head": "Air-Condition",
+                    "detail": "Standard air conditioning for Carryboy RVs",
+                    "img": "interior/carryboy-motorhome-rv-interior-aircondition-1.jpg"
+                },
+                "page02": {
+                    "head": "Air-Condition Control Panel",
+                    "detail": "Air conditioning control panel",
+                    "img": "interior/carryboy-motorhome-rv-interior-aircondition-2.jpg"
+                }
+            },
+            "compartment": {
+                "npage": 3,
+                "page01": {
+                    "head": "Storage Compartment in the Car",
+                    "detail": "Overhead storage compartment",
+                    "img": "interior/carryboy-motorhome-rv-interior-compartment1.jpg"
+                },
+                "page02": {
+                    "head": "Storage Compartment in the Car",
+                    "detail": "Overhead storage compartment",
+                    "img": "interior/carryboy-motorhome-rv-interior-compartment2.jpg"
+                },
+                "page03": {
+                    "head": "Storage Compartment in the Car",
+                    "detail": "Overhead storage compartment",
+                    "img": "interior/carryboy-motorhome-rv-interior-compartment3.jpg"
+                }
+            },
+            "mirror": {
+                "npage": 1,
+                "page01": {
+                    "head": "System Control",
+                    "detail": "Control cabinet and display of electrical and water systems used in the home car",
+                    "img": "interior/carryboy-motorhome-rv-interior-powercontrol.jpg"
+                }
+            },
+            "basin": {
+                "npage": 2,
+                "page01": {
+                    "head": "Basin",
+                    "detail": "Washbasin with the lid closed. The lid is strong and can be placed to make the space of your RV worthwhile.",
+                    "img": "interior/carryboy-motorhome-rv-interior-basin-close.jpg"
+                },
+                "page02": {
+                    "head": "Basin",
+                    "detail": "Washbasin. When the lid is opened, the water dispenser can be folded and unfolded for use.",
+                    "img": "interior/carryboy-motorhome-rv-interior-basin-open.jpg"
+                }
+            },
+            "toilet": {
+                "npage": 4,
+                "page01": {
+                    "head": "Rest room top view. New style in Carryboy Motorhome.",
+                    "detail": "Bathroom of Carryboy motorhome, developed to be more modern, beautiful, and luxurious",
+                    "img": "interior/newToilet/carryboy-motorhome-rv-interior-toilet-4.jpg"
+                },
+                "page02": {
+                    "head": "Black shower.",
+                    "detail": "Bathroom of Carryboy motorhome, developed to be more modern, beautiful, and luxurious",
+                    "img": "interior/newToilet/carryboy-motorhome-rv-interior-toilet-2.jpg"
+                },
+                "page03": {
+                    "head": "Bidet shower.",
+                    "detail": "Basin separates hot and cold water, adjustable for warm and cool temperatures",
+                    "img": "interior/newToilet/carryboy-motorhome-rv-interior-toilet-3.jpg"
+                },
+                "page04": {
+                    "head": "Rest room floor.",
+                    "detail": "Basin separates hot and cold water, adjustable for warm and cool temperatures",
+                    "img": "interior/newToilet/carryboy-motorhome-rv-interior-toilet-5.jpg"
+                }
+            },
+            "wardrobe": {
+                "npage": 3,
+                "page01": {
+                    "head": "Wardrobe",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-wardrobe-1.jpg"
+                },
+                "page02": {
+                    "head": "Wardrobe",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-wardrobe-2.jpg"
+                },
+                "page03": {
+                    "head": "Wardrobe",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-wardrobe-3.jpg"
+                }
+            },
+            "accessory": {
+                "npage": 1,
+                "page01": {
+                    "head": "Television and Microwave Oven",
+                    "detail": "Convenience equipment including television, microwave oven, and refrigerator",
+                    "img": "interior/carryboy-motorhome-rv-interior-accessory-tv-microwave.jpg"
+                }
+            },
+            "bed": {
+                "npage": 3,
+                "page01": {
+                    "head": "Sofa and Bed Type 1",
+                    "detail": "Adjustable sofa set consisting of a 3-seater sofa and a central dining table that can be folded and extended",
+                    "img": "interior/carryboy-motorhome-rv-interior-bed-1.jpg"
+                },
+                "page02": {
+                    "head": "Sofa and Bed Type 2",
+                    "detail": "Adjustable sofa and bed set consisting of 1 sofa and 1 bed, with the ability to store the central dining table and extend the sofa to make it longer",
+                    "img": "interior/carryboy-motorhome-rv-interior-bed-2.jpg"
+                },
+                "page03": {
+                    "head": "Sofa and Bed Type 3",
+                    "detail": "Adjustable bed set entirely consisting of a bed, with the ability to store the central dining table and extend the sofa to make it longer",
+                    "img": "interior/carryboy-motorhome-rv-interior-bed-3.jpg"
+                }
+            }
+        }
+    ],
+    "interiorbottom": [
+        {
+            "sky": {
+                "npage": 5,
+                "page01": {
+                    "head": "Skyview",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-skyview-1.jpg"
+                },
+                "page02": {
+                    "head": "Skyview",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-skyview-2.jpg"
+                },
+                "page03": {
+                    "head": "Skyview",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-skyview-3.jpg"
+                },
+                "page04": {
+                    "head": "Skyview",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-skyview-4.jpg"
+                },
+                "page05": {
+                    "head": "Skyview",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-skyview-5.jpg"
+                }
+            },
+            "bedunderdriver": {
+                "npage": 3,
+                "page01": {
+                    "head": "Upper Bed Above the Driver",
+                    "detail": "Additional bed added to accommodate more occupants and make the most of the space",
+                    "img": "interior/carryboy-motorhome-rv-interior-bedunderdriver.jpg"
+                },
+                "page02": {
+                    "head": "Bright Light for Upper Bed",
+                    "detail": "Separate light for individuals using the upper bed area",
+                    "img": "interior/carryboy-motorhome-rv-interior-bedunderdriver-lightforlook.jpg"
+                },
+                "page03": {
+                    "head": "Reading Light for Upper Bed",
+                    "detail": "Separate light for individuals using the upper bed area",
+                    "img": "interior/carryboy-motorhome-rv-interior-bedunderdriver-lightforread.jpg"
+                }
+            },
+            "curtain": {
+                "npage": 2,
+                "page01": {
+                    "head": "Curtain Between Driver and Bedroom (Driver's View)",
+                    "detail": "Space between driver and bedroom for easy communication and passage",
+                    "img": "interior/carryboy-motorhome-rv-interior-curtain-frontview.jpg"
+                },
+                "page02": {
+                    "head": "Curtain Between Driver and Bedroom (Passenger's View)",
+                    "detail": "Space between driver and bedroom for easy communication and passage",
+                    "img": "interior/carryboy-motorhome-rv-interior-curtain-bottomview.jpg"
+                }
+            },
+            "window": {
+                "npage": 3,
+                "page01": {
+                    "head": "Side Windows",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-window-side-1.jpg"
+                },
+                "page02": {
+                    "head": "Side Windows",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-window-side-2.jpg"
+                },
+                "page03": {
+                    "head": "Side Windows",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-window-side-4.jpg"
+                }
+            },
+            "plug": {
+                "npage": 1,
+                "page01": {
+                    "head": "USB Plug",
+                    "detail": "Adds convenience for charging",
+                    "img": "interior/carryboy-motorhome-rv-interior-plug.jpg"
+                }
+            }
+        }
+    ],
+    "exteriorfront": [
+        {
+            "sky": {
+                "npage": 5,
+                "page01": {
+                    "head": "Skyview",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-skyview-1.jpg"
+                },
+                "page02": {
+                    "head": "Skyview",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-skyview-2.jpg"
+                },
+                "page03": {
+                    "head": "Skyview",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-skyview-3.jpg"
+                },
+                "page04": {
+                    "head": "Skyview",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-skyview-4.jpg"
+                },
+                "page05": {
+                    "head": "Skyview",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-interior-skyview-5.jpg"
+                }
+            },
+            "window": {
+                "npage": 3,
+                "page01": {
+                    "head": "Side Windows",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-window-side-1.jpg"
+                },
+                "page02": {
+                    "head": "Side Windows",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-window-side-2.jpg"
+                },
+                "page03": {
+                    "head": "Side Windows",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-window-side-4.jpg"
+                }
+            },
+            "sewage": {
+                "npage": 1,
+                "page01": {
+                    "head": "Waste Water Tank or Sewage",
+                    "detail": "Waste water tank or sewage",
+                    "img": "interior/carryboy-motorhome-rv-exterior-sewage.jpg"
+                }
+            },
+            "battery": {
+                "npage": 3,
+                "page01": {
+                    "head": "Battery Compartment and Electrical System",
+                    "detail": "Battery compartment and electrical system",
+                    "img": "interior/carryboy-motorhome-rv-exterior-battery-1.jpg"
+                },
+                "page02": {
+                    "head": "Battery and Electrical System",
+                    "detail": "Battery and electrical system",
+                    "img": "interior/carryboy-motorhome-rv-exterior-battery-2.jpg"
+                },
+                "page03": {
+                    "head": "Air Ventilation Fan",
+                    "detail": "Air ventilation fan",
+                    "img": "interior/carryboy-motorhome-rv-exterior-battery-3.jpg"
+                }
+            }
+        }
+    ],
+    "exteriorbottom": [
+        {
+            "awning": {
+                "npage": 2,
+                "page01": {
+                    "head": "Awning",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-exterior-awning-1.jpg"
+                },
+                "page02": {
+                    "head": "Awning",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-exterior-awning.jpg"
+                }
+            },
+            "back": {
+                "npage": 1,
+                "page01": {
+                    "head": "Bicycle Storage",
+                    "detail": "Additional storage space for equipment including a generator, a ladder for hanging bicycles, and a lower equipment box",
+                    "img": "interior/carryboy-motorhome-rv-exterior-back.jpg"
+                }
+            },
+            "boxback": {
+                "npage": 2,
+                "page01": {
+                    "head": "Rear Carrying Box",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-exterior-boxback1.jpg"
+                },
+                "page02": {
+                    "head": "Rear Carrying Box",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-exterior-boxback2.jpg"
+                }
+            },
+            "door": {
+                "npage": 4,
+                "page01": {
+                    "head": "Exterior Door Handle",
+                    "detail": "The exterior door handle can be folded and unfolded. While folding, it must be pushed to the right and it will attach to the vehicle surface",
+                    "img": "interior/carryboy-motorhome-rv-exterior-door-1.jpg"
+                },
+                "page02": {
+                    "head": "Interior Door Handle",
+                    "detail": "A strong interior door handle used for support when getting in and out of the vehicle. It is also used to open and close the door from the inside",
+                    "img": "interior/carryboy-motorhome-rv-exterior-door-2.jpg"
+                },
+                "page03": {
+                    "head": "Interior Door Lock",
+                    "detail": "The door is opened by pulling the door lock towards oneself and pulling it down. There is a high degree of pull for safety in locking the door",
+                    "img": "interior/carryboy-motorhome-rv-exterior-door-3.jpg"
+                },
+                "page04": {
+                    "head": "Trash Can Behind Interior Door",
+                    "detail": "The door comes with a trash can for convenience and to make the most of the space",
+                    "img": "interior/carryboy-motorhome-rv-exterior-door-4.jpg"
+                }
+            },
+            "exshower": {
+                "npage": 1,
+                "page01": {
+                    "head": "Exterior Shower",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-exterior-waterinout.jpg"
+                }
+            },
+            "step": {
+                "npage": 3,
+                "page01": {
+                    "head": "Electric Step",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-exterior-step-1.jpg"
+                },
+                "page02": {
+                    "head": "Switch for Electric Step",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-exterior-step-2.jpg"
+                },
+                "page03": {
+                    "head": "Switch for Electric Step",
+                    "detail": "",
+                    "img": "interior/carryboy-motorhome-rv-exterior-step-3.jpg"
+                }
+            }
+        }
+    ],
+    "option": [
+        {
+            "suspension": {
+                "npage": 1,
+                "page01": {
+                    "head": "Suspension - Set B",
+                    "detail": "Front & Rear tune 2 way 2.5 shock absorber / sub-tank 8 level (AC power), Front & Rear stabilizer arm, Suspension tune-up by AC power, 9-10” shackle, Standard leaf spring",
+                    "img": "option/carryboy-motorhome-rv-option-suspension.jpg"
+                }
+            },
+            "kitchen": {
+                "npage": 2,
+                "page01": {
+                    "head": "Slide-out Kitchen Storage",
+                    "detail": "Slide-out kitchen storage that can be folded and unfolded, convenient for outdoor activities. It includes a gas stove, cooking area, and dishwashing sink",
+                    "img": "option/carryboy-motorhome-rv-option-kitchen-1.png"
+                },
+                "page02": {
+                    "head": "Storage Compartment (Without Slide-out Kitchen)",
+                    "detail": "This compartment can be used for storage instead if a slide-out kitchen is not desired",
+                    "img": "option/carryboy-motorhome-rv-option-kitchen-0.png"
+                }
+            },
+            "air": {
+                "npage": 1,
+                "page01": {
+                    "head": "Air-Conditioner - HARRIER plus",
+                    "detail": "Ceiling-mounted air conditioning unit",
+                    "img": "option/carryboy-motorhome-rv-option-air-2.jpg"
+                }
+            },
+            "gen": {
+                "npage": 1,
+                "page01": {
+                    "head": "Power Generator - Dometic (2,100 Watt)",
+                    "detail": "",
+                    "img": "option/carryboy-motorhome-rv-feature-generator.jpg"
+                }
+            }
+        }
+    ]
+}

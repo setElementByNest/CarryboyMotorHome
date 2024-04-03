@@ -1,0 +1,153 @@
+.bannerslide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1400px;
+    height: 100vh;
+    max-height: calc(1400px / 2);
+}
+
+.slider-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center center;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+    z-index: 0;
+}
+
+.slide.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+.slide.prev {
+    opacity: 0;
+    z-index: 0;
+}
+
+.caption {
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+    max-width: 35%;
+    transform: translate(0, 30%);
+}
+
+
+.caption-white h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.caption-white h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.caption-black h2 {
+    color: black;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.caption-black h3 {
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.caption-black .caption-bt {
+    background: #000000;
+    color: #ffffff;
+    width: fit-content;
+    padding: 6px 20px;
+    border-radius: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.caption-white .caption-bt {
+    background: #ffffff;
+    color: #000000;
+    width: fit-content;
+    padding: 6px 20px;
+    border-radius: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.caption-bt:hover {
+    background: #cc0000;
+    color: #ffffff;
+}
+
+@media (max-width:100vh) {
+
+    .caption {
+        position: absolute;
+        bottom: none;
+        top: 10%;
+        left: 50%;
+        width: 90%;
+        max-width: none;
+        transform: translate(-50%, 0);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .caption-white h2 {
+        color: white;
+        font-weight: 400;
+        font-size: 35px;
+    }
+
+    .caption-white h3 {
+        color: white;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .caption-black h2 {
+        color: black;
+        font-weight: 400;
+        font-size: 35px;
+    }
+
+    .caption-black h3 {
+        color: black;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .caption-bt {
+        background: #000000;
+        color: #ffffff;
+        width: fit-content;
+        padding: 6px 20px;
+        border-radius: 50px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+}

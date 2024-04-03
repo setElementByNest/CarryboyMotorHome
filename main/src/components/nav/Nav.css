@@ -1,0 +1,199 @@
+.nav {
+    z-index: 4;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #FFFFFFee;
+}
+
+.nav-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    max-width: 1300px;
+    padding: 0 5%;
+    top: 0px;
+    height: 50px;
+    /* box-shadow: 0 4px 14px 4px #00000066; */
+}
+
+.list_desktop {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-content a {
+    color: #000000;
+    margin: 0 15px;
+    background: none;
+    width: fit-content;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-content a:hover {
+    color: #cc0000;
+}
+
+/*nav a {
+    color: #222222;
+    margin: 0 1vw;
+    background: none;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 17px;
+    border-bottom: #aa000000 solid 4px;
+    display: flex;
+    align-items: center
+}
+
+nav a:hover {
+    color: #000000;
+    border-bottom: #aa0000 solid 4px;
+}*/
+
+.nav-open,
+.nav-close {
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 0 0 0 20px;
+    padding: 5px 0px;
+    color: #dd0000;
+    background: none;
+    box-shadow: none;
+}
+
+.nav-open {
+    display: flex;
+}
+
+.nav-close {
+    display: none;
+    margin-left: 21px;
+}
+
+.navmobile {
+    z-index: 1;
+    height: 90vh;
+    width: 100%;
+    background: #000000ee;
+    position: fixed;
+    right: -100%;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5vh 0;
+    top: 50px;
+    overflow: hidden;
+}
+
+.navmobile a {
+    display: flex;
+    color: #ffffff;
+    margin: 0 5%;
+    background: none;
+    height: 50px;
+    width: 90%;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+    list-style-type: none;
+    border-bottom: #888888 solid 1px;
+}
+
+.navmobile a:hover {
+    color: #eeeeee;
+    background: #aa0000;
+}
+
+
+.list_phone {
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+
+.nav-a-lang {
+    background: #ffffff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #cc0000;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    font-weight: 400;
+}
+
+.nav-a-lang::after {
+    background: #cc0000;
+    height: 10%;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: '';
+    transition: all 0.3s;
+}
+
+.nav-a-lang:hover:after{
+    width: 100%;
+}
+
+.nav-a-lang:hover{
+    color: #cc0000;
+}
+
+@media (max-width:100vh) {
+    .nav-content {
+        z-index: 4;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 90vw;
+        justify-content: space-between;
+        padding: 10px 5vw;
+        background: #ffffffcc;
+        top: 0;
+        height: 30px;
+        left: 0px;
+    }
+
+    .nav-open {
+        display: inline-flex;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .list_desktop {
+        display: none;
+    }
+
+    .list_phone {
+        display: flex;
+        align-items: center;
+        opacity: 1;
+    }
+}

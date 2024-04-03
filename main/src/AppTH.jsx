@@ -1,50 +1,50 @@
 import './App.css'
+import Nav from './components/nav/NavTH'
+import SliderBanner from './components/banner/BannerSlideTH'
+import BothCar from './components/showCar/BothCar'
+import Interior_2 from './components/allpart/Interior_2TH'
+import Dimension from './components/dimension/DimensionTH'
+import Features from './components/features/FeaturesTH'
+import CarExplan from './components/features/CarExplanTH'
+import Smart from './components/smart/SmartTH'
+import Option_1 from './components/option/OptionTH'
+import Footer from './components/footer/FooterTH'
 import Pop1 from './components/showPop/Pop1'
 import Pop2 from './components/showPop/Pop2'
 import Pop3 from './components/showPop/Pop3'
-import Option_1 from './components/option/Option'
-import Footer from './components/footer/Footer'
-import Nav from './components/nav/Nav'
-import Features from './components/features/Features'
-import BothCar from './components/showCar/BothCar'
-import Interior_2 from './components/allpart/Interior_2'
 import Popup from './components/showPop/Popup'
-import CarExplan from './components/features/CarExplan'
-import Dimension from './components/dimension/Dimension'
-import Smart from './components/smart/Smart'
-import SliderBanner from './components/banner/BannerSlide'
 function App() {
   const slides = [
     {
-      id:  0,
+      id: 0,
       image: '/img_index/banner/newBanner01.jpg',
       imagem: '/img_index/banner/newBanner01-m.jpg',
-      caption: 'Motorhome',
-      sub: "Carryboy Motorhome, Another Option for Unlimited Travel Seekers.",
+      caption: 'รถบ้านแครี่บอย',
+      sub: "สนุกไปกับการเดินทางแบบอิสระ ลุยสถานที่สวยงามและทางที่ผจญภัยไปกับรถบ้านแครี่บอย!",
       link: "https://carryboymotorhome.com/buildrv.html",
     },
     {
-      id:  3,
+      id: 3,
       image: '/img_index/banner/newBanner04.jpg',
       imagem: '/img_index/banner/newBanner04-m.jpg',
-      caption: 'Side Grow Lighting',
-      sub: "Say goodbye to seasonal limitations! Our energy-efficient LED lighting ensures your plants receive the perfect amount of light all year long.",
+      caption: 'ไฟส่องสว่างข้างรถ',
+      sub: "บอกลาข้อจำกัดตามฤดูกาล! ไฟ LED ประหยัดพลังงานของเราช่วยให้มั่นใจว่าต้นไม้ของคุณจะได้รับแสงสว่างในปริมาณที่เหมาะสมตลอดทั้งปี",
       link: "https://carryboymotorhome.com/buildrv.html",
     },
     {
-      id:  1,
+      id: 1,
       image: '/img_index/banner/newBanner03.jpg',
       imagem: '/img_index/banner/newBanner03-m.jpg',
-      caption: 'Smart System',
-      sub: "This smart system enhances the convenience and comfort of living in the Carryboy Motorhome",
+      caption: 'ระบบอัจฉริยะ',
+      sub: "ระบบอัจฉริยะที่จะช่วยเพิ่มความสะดวกสบายให้กับการใช้ชีวิตในการผจญภัยไปกับรถบ้านแครี่บอย",
       link: "#smart",
     },
     {
-      id:  2,
+      id: 2,
       image: '/img_index/banner/newBanner02.jpg',
       imagem: '/img_index/banner/newBanner02-m.jpg',
-      caption: 'Interior',
-      sub: "Luxurious interior with amenities complete convenience",
+      caption: 'การออกแบบภายใน',
+      sub: "ภายในหรูหราพร้อมสิ่งอำนวยความสะดวกครบครัน",
       link: "#interior2",
     },
     {
@@ -52,7 +52,7 @@ function App() {
       image: '/img_index/banner/newBanner05.jpg',
       imagem: '/img_index/banner/newBanner05-m.jpg',
       caption: 'Slide-in',
-      sub: "A compact camper that can be mounted onto the bed of a pickup truck.",
+      sub: "รถแคมป์ปิ้งขนาดกะทัดรัดที่สามารถติดตั้งบนเตียงรถกระบะได้",
       link: "https://carryboymotorhome.com/buildrv.html",
     },
   ];
@@ -78,8 +78,7 @@ function App() {
         <SliderBanner slides={slides} />
         <div className='subseen1'>
           <h3>Carryboy Motorhome</h3>
-          <p>“Carryboy Motorhome, Another Option for Unlimited Travel Seekers.”</p>
-          {/* <p>“รถบ้านแครี่บอย อีกทางเลือกสำหรับผู้แสวงหาการท่องเที่ยวแบบไร้ขีดจำกัด”</p> */}
+          <p>“รถบ้านแครี่บอย อีกทางเลือกสำหรับผู้แสวงหาการท่องเที่ยวแบบไร้ขีดจำกัด”</p>
         </div>
         <BothCar />
         <Interior_2 />
