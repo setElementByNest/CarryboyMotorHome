@@ -1,0 +1,60 @@
+"use client";
+
+import { useRouter, usePathname } from "next/navigation";
+import { useLocale } from "next-intl";
+import { Iconify } from "@/components/client";
+import { Button } from "@/components/server";
+
+import { i18nConfig } from "@/utils/constants";
+import { Map } from "@/typing/types";
+
+export default function LanguageSelector() {
+  const router = useRouter();
+  const locale = useLocale();
+  let pathname = usePathname();
+
+  const buttonData: Map<{ className: string; flag: string }> = {
+    en: {
+      className: "hover:bg-red-500/10 hover:border-red-700",
+      flag: "flagpack:us",
+    },
+    th: {
+      className: "hover:bg-yellow-500/10 hover:border-yellow-600",
+      flag: "flagpack:th",
+    },
+  };
+
+  const handleClick = (lang: string) => {
+    if (locale !== lang) {
+      pathname = `/${lang}/${pathname.substring(4)}`;
+      localStorage.setItem("lang", lang);
+      router.push(pathname);
+    }
+  };
+
+  return (
+    <section className="flex flex-col justify-center items-center gap-2 mt-6 mb-3">
+      <span>Switch Language</span>
+      <div className="flex flex-row gap-2">
+        {i18nConfig.locales.map((locale) => {
+          const data = buttonData[locale]; // ตรวจสอบข้อมูลก่อนใช้งาน
+
+          if (!data) {
+            return null; // ถ้าไม่มีข้อมูล ไม่ต้องแสดงปุ่ม
+          }
+
+          return (
+            <Button
+              key={locale}
+              onClick={() => handleClick(locale)}
+              className={data.className}
+            >
+              <Iconify icon={data.flag} width={20} />
+              {locale.toUpperCase()}
+            </Button>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
